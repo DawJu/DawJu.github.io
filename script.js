@@ -162,6 +162,13 @@
 		};
 	});
 
+	app.directive("disclaimer", function () {
+		return {
+			restrict: "A",
+			template: "Disclaimer: This website is under construction. Nothing you see is final. Changes will be made, and new features added over time."
+		};
+	});
+
 	app.directive("notEnoughCharacters1", function () {
 		return {
 			restrict: "A",
