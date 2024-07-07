@@ -1,0 +1,36 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+/*body {
+  font-family: Georgia, Verdana;
+  color: #bfbfbf;
+  margin: 0px;
+  background-color: #262626;
+}*/
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
+#character-list div {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  display: inline-block;
+}
+
+.selected {
+  background-color: rgb(44, 113, 44);
+}
+
+.non-selected {
+  background-color: rgb(123, 49, 49);
+}
