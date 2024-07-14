@@ -107,6 +107,16 @@
 		$scope.lessThan4 = false;
 		$scope.showTwoTeams = false;
 		$scope.lessThan8 = false;
+
+		function initSingleCharacterTooltip() {
+			let element = document.querySelector("#single-character img");
+			if (element) {
+				element.setAttribute("data-bs-toggle", "tooltip");
+				element.setAttribute("data-bs-title", element.getAttribute("tooltip"));
+				element.setAttribute("title", "");
+				new bootstrap.Tooltip(element);
+			}
+		}
 		
 		$scope.displayChar = function () {
 			let enoughChars = $scope.getIncludedCount() >= 1;
@@ -114,6 +124,7 @@
 				$scope.rndChar = $scope.getRandom("one_char");
 				$scope.showChar = true;
 				$scope.lessThan1 = false;
+				setTimeout(initSingleCharacterTooltip, 0);
 			}
 			else {
 				$scope.showChar = false;
@@ -187,6 +198,23 @@
 		return {
 			restrict: "A",
 			template: "You must select at least 8 characters."
+		};
+	});
+
+	app.directive("tooltip", function () {
+		return {
+			restrict: "A",
+			link: function (scope, element, attrs) {
+				element.attr("data-bs-toggle", "tooltip");
+				element.attr("data-bs-title", attrs.tooltip);
+				element.attr("title", "");
+				// Initialize the tooltip
+				new bootstrap.Tooltip(element[0]);
+				// Watch for changes and reinitialize the tooltip
+				attrs.$observe("tooltip", function (value) {
+					element.attr("data-bs-title", value).tooltip("dispose").tooltip({ title: value });
+				});
+			}
 		};
 	});
 })(window.angular);

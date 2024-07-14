@@ -949,7 +949,7 @@
 	},
 	{
 		"name": "Kirara",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/kirara01.png",
 		"images/kirara02.png",
