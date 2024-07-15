@@ -205,15 +205,15 @@
 		return {
 			restrict: "A",
 			link: function (scope, element, attrs) {
-				element.attr("data-bs-toggle", "tooltip");
-				element.attr("data-bs-title", attrs.tooltip);
-				element.attr("title", "");
+				/*element.attr("data-bs-toggle", "tooltip");
+				element.attr("data-bs-title", attrs.tooltip);*/
+				element.attr("title", attrs.tooltip);
 				// Initialize the tooltip
 				new bootstrap.Tooltip(element[0]);
 				// Watch for changes and reinitialize the tooltip
-				attrs.$observe("tooltip", function (value) {
+				/*attrs.$observe("tooltip", function (value) {
 					element.attr("data-bs-title", value).tooltip("dispose").tooltip({ title: value });
-				});
+				});*/
 			}
 		};
 	});

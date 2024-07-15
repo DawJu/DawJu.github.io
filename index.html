@@ -70,8 +70,20 @@
 			</section>
 			<br>
 			<div class="row">
+			<section id="settings" class="col-sm-2">
+				<form>
+					<h4 class="pb-2">Search</h4>
+					<input class="form-control" type="text" placeholder="Search by name" ng-model="searchPhrase">
+				</form>
+				<hr>
+				<h4 class="pt-4 pb-4">Settings</h4>
+				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="selectAll()">Select All</button>
+				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="deselectAll()">Deselect All</button>
+				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="switchTraveler()">Switch Traveler</button>
+				<hr>
+			</section>
 				<section id="character-list" class="col-sm-10">
-					<div ng-repeat="char in characters" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
+					<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
 						ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
 						'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
 						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
@@ -80,12 +92,6 @@
 					</div>
 					<!--<p selected-character-count></p>
 					<p selected-characters></p>-->
-				</section>
-				<section id="settings" class="col-sm-2">
-					<h4 class="pt-4 pb-4">Settings</h4>
-					<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="selectAll()">Select All</button>
-					<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="deselectAll()">Deselect All</button>
-					<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="switchTraveler()">Switch Traveler</button>
 				</section>
 			</div>
 		</main>
