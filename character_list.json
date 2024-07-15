@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Traveler",
+		"element": "traveler",
 		"include": true,
 		"images": [
 		"images/traveler/aether01.png",
@@ -24,6 +25,7 @@
 	},
 	{
 		"name": "Chiori",
+		"element": "geo",
 		"include": false,
 		"images": [
 		"images/chiori01.png",
@@ -34,6 +36,7 @@
 	},
 	{
 		"name": "Navia",
+		"element": "geo",
 		"include": false,
 		"images": [
 		"images/navia01.png",
@@ -47,6 +50,7 @@
 	},
 	{
 		"name": "Arataki Itto",
+		"element": "geo",
 		"include": false,
 		"images": [
 		"images/itto01.png",
@@ -63,6 +67,7 @@
 	},
 	{
 		"name": "Albedo",
+		"element": "geo",
 		"include": true,
 		"images": [
 		"images/albedo01.png",
@@ -79,6 +84,7 @@
 	},
 	{
 		"name": "Zhongli",
+		"element": "geo",
 		"include": true,
 		"images": [
 		"images/zhongli01.png",
@@ -95,6 +101,7 @@
 	},
 	{
 		"name": "Xianyun",
+		"element": "anemo",
 		"include": false,
 		"images": [
 		"images/xianyun01.png",
@@ -108,6 +115,7 @@
 	},
 	{
 		"name": "Wanderer",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/wanderer01.png",
@@ -121,6 +129,7 @@
 	},
 	{
 		"name": "Kaedehara Kazuha",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/kazuha01.png",
@@ -135,6 +144,7 @@
 	},
 	{
 		"name": "Xiao",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/xiao01.png",
@@ -157,6 +167,7 @@
 	},
 	{
 		"name": "Venti",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/venti01.png",
@@ -179,6 +190,7 @@
 	},
 	{
 		"name": "Jean",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/jean01.png",
@@ -194,6 +206,7 @@
 	},
 	{
 		"name": "Wriothesley",
+		"element": "cryo",
 		"include": false,
 		"images": [
 		"images/wriothesley01.png",
@@ -204,6 +217,7 @@
 	},
 	{
 		"name": "Shenhe",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/shenhe01.png",
@@ -216,11 +230,13 @@
 	},
 	{
 		"name": "Aloy",
+		"element": "cryo",
 		"include": false,
 		"images": ["images/aloy01.webp"]
 	},
 	{
 		"name": "Eula",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/eula01.png",
@@ -239,6 +255,7 @@
 	},
 	{
 		"name": "Ganyu",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/ganyu01.png",
@@ -255,6 +272,7 @@
 	},
 	{
 		"name": "Qiqi",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/qiqi01.png",
@@ -267,6 +285,7 @@
 	},
 	{
 		"name": "Kamisato Ayaka",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/ayaka01.png",
@@ -284,6 +303,7 @@
 	},
 	{
 		"name": "Clorinde",
+		"element": "electro",
 		"include": false,
 		"images": [
 		"images/clorinde01.png",
@@ -295,6 +315,7 @@
 	},
 	{
 		"name": "Cyno",
+		"element": "electro",
 		"include": false,
 		"images": [
 		"images/cyno01.png",
@@ -311,6 +332,7 @@
 	},
 	{
 		"name": "Yae Miko",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/miko01.png",
@@ -325,6 +347,7 @@
 	},
 	{
 		"name": "Raiden Shogun",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/raiden01.png",
@@ -343,6 +366,7 @@
 	},
 	{
 		"name": "Keqing",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/keqing01.png",
@@ -364,6 +388,7 @@
 	},
 	{
 		"name": "Baizhu",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/baizhu01.png",
@@ -374,6 +399,7 @@
 	},
 	{
 		"name": "Alhaitham",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/alhaitham01.png",
@@ -384,6 +410,7 @@
 	},
 	{
 		"name": "Nahida",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/nahida01.png",
@@ -398,6 +425,7 @@
 	},
 	{
 		"name": "Tighnari",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/tighnari01.png",
@@ -412,6 +440,7 @@
 	},
 	{
 		"name": "Sigewinne",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/sigewinne01.webp",
@@ -422,6 +451,7 @@
 	},
 	{
 		"name": "Furina",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/furina01.png",
@@ -434,6 +464,7 @@
 	},
 	{
 		"name": "Neuvillette",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/neuvillette01.png",
@@ -445,6 +476,7 @@
 	},
 	{
 		"name": "Nilou",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/nilou01.png",
@@ -455,6 +487,7 @@
 	},
 	{
 		"name": "Kamisato Ayato",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/ayato01.png",
@@ -466,6 +499,7 @@
 	},
 	{
 		"name": "Yelan",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/yelan01.png",
@@ -477,6 +511,7 @@
 	},
 	{
 		"name": "Sangonomiya Kokomi",
+		"element": "hydro",
 		"include": false,
 		"images": [
 		"images/kokomi01.png",
@@ -493,6 +528,7 @@
 	},
 	{
 		"name": "Mona",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/mona01.png",
@@ -508,6 +544,7 @@
 	},
 	{
 		"name": "Tartaglia",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/tartaglia01.png",
@@ -530,6 +567,7 @@
 	},
 	{
 		"name": "Arlecchino",
+		"element": "pyro",
 		"include": false,
 		"images": [
 		"images/arlecchino01.png",
@@ -542,6 +580,7 @@
 	},
 	{
 		"name": "Lyney",
+		"element": "pyro",
 		"include": false,
 		"images": [
 		"images/lyney01.png",
@@ -555,6 +594,7 @@
 	},
 	{
 		"name": "Dehya",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/dehya01.png",
@@ -565,6 +605,7 @@
 	},
 	{
 		"name": "Yoimiya",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/yoimiya01.png",
@@ -582,6 +623,7 @@
 	},
 	{
 		"name": "Hu Tao",
+		"element": "pyro",
 		"include": false,
 		"images": [
 		"images/hutao01.png",
@@ -607,6 +649,7 @@
 	},
 	{
 		"name": "Klee",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/klee01.png",
@@ -622,6 +665,7 @@
 	},
 	{
 		"name": "Diluc",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/diluc01.png",
@@ -632,6 +676,7 @@
 	},
 	{
 		"name": "Yun Jin",
+		"element": "geo",
 		"include": true,
 		"images": [
 		"images/yunjin01.png",
@@ -642,6 +687,7 @@
 	},
 	{
 		"name": "Gorou",
+		"element": "geo",
 		"include": true,
 		"images": [
 		"images/gorou01.png",
@@ -653,11 +699,13 @@
 	},
 	{
 		"name": "Noelle",
+		"element": "geo",
 		"include": true,
 		"images": ["images/noelle01.png"]
 	},
 	{
 		"name": "Ningguang",
+		"element": "geo",
 		"include": true,
 		"images": [
 		"images/ningguang01.png",
@@ -669,6 +717,7 @@
 	},
 	{
 		"name": "Lynette",
+		"element": "anemo",
 		"include": false,
 		"images": [
 		"images/lynette01.png",
@@ -685,6 +734,7 @@
 	},
 	{
 		"name": "Faruzan",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/faruzan01.png",
@@ -696,6 +746,7 @@
 	},
 	{
 		"name": "Shikanoin Heizou",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/heizou01.png",
@@ -706,6 +757,7 @@
 	},
 	{
 		"name": "Sayu",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/sayu01.png",
@@ -716,6 +768,7 @@
 	},
 	{
 		"name": "Sucrose",
+		"element": "anemo",
 		"include": true,
 		"images": [
 		"images/sucrose01.png",
@@ -732,6 +785,7 @@
 	},
 	{
 		"name": "Charlotte",
+		"element": "cryo",
 		"include": false,
 		"images": [
 		"images/charlotte01.png",
@@ -744,6 +798,7 @@
 	},
 	{
 		"name": "Freminet",
+		"element": "cryo",
 		"include": false,
 		"images": [
 		"images/freminet01.png",
@@ -757,6 +812,7 @@
 	},
 	{
 		"name": "Mika",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/mika01.png",
@@ -767,6 +823,7 @@
 	},
 	{
 		"name": "Layla",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/layla01.png",
@@ -777,6 +834,7 @@
 	},
 	{
 		"name": "Rosaria",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/rosaria01.png",
@@ -788,6 +846,7 @@
 	},
 	{
 		"name": "Diona",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/diona01.png",
@@ -801,6 +860,7 @@
 	},
 	{
 		"name": "Chongyun",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/chongyun01.png",
@@ -813,6 +873,7 @@
 	},
 	{
 		"name": "Kaeya",
+		"element": "cryo",
 		"include": true,
 		"images": [
 		"images/kaeya01.png",
@@ -827,6 +888,7 @@
 	},
 	{
 		"name": "Sethos",
+		"element": "electro",
 		"include": false,
 		"images": [
 		"images/sethos01.webp",
@@ -837,6 +899,7 @@
 	},
 	{
 		"name": "Dori",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/dori01.png",
@@ -847,6 +910,7 @@
 	},
 	{
 		"name": "Kuki Shinobu",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/shinobu01.png",
@@ -857,6 +921,7 @@
 	},
 	{
 		"name": "Kujou Sara",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/sara01.png",
@@ -867,6 +932,7 @@
 	},
 	{
 		"name": "Fischl",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/fischl01.png",
@@ -878,6 +944,7 @@
 	},
 	{
 		"name": "Beidou",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/beidou01.png",
@@ -888,6 +955,7 @@
 	},
 	{
 		"name":	"Razor",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/razor01.png",
@@ -900,6 +968,7 @@
 	},
 	{
 		"name": "Lisa",
+		"element": "electro",
 		"include": true,
 		"images": [
 		"images/lisa01.png",
@@ -911,6 +980,7 @@
 	},
 	{
 		"name": "Kaveh",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/kaveh01.png",
@@ -924,6 +994,7 @@
 	},
 	{
 		"name": "Yaoyao",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/yaoyao01.png",
@@ -934,6 +1005,7 @@
 	},
 	{
 		"name": "Collei",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/collei01.png",
@@ -949,6 +1021,7 @@
 	},
 	{
 		"name": "Kirara",
+		"element": "dendro",
 		"include": true,
 		"images": [
 		"images/kirara01.png",
@@ -960,6 +1033,7 @@
 	},
 	{
 		"name": "Candace",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/candace01.png",
@@ -970,6 +1044,7 @@
 	},
 	{
 		"name": "Xingqiu",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/xingqiu01.png",
@@ -985,6 +1060,7 @@
 	},
 	{
 		"name": "Barbara",
+		"element": "hydro",
 		"include": true,
 		"images": [
 		"images/barbara01.png",
@@ -997,6 +1073,7 @@
 	},
 	{
 		"name": "Chevreuse",
+		"element": "pyro",
 		"include": false,
 		"images": [
 		"images/chevreuse01.png",
@@ -1008,6 +1085,7 @@
 	},
 	{
 		"name": "Gaming",
+		"element": "pyro",
 		"include": false,
 		"images": [
 		"images/gaming01.png",
@@ -1021,6 +1099,7 @@
 	},
 	{
 		"name": "Thoma",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/thoma01.png",
@@ -1034,6 +1113,7 @@
 	},
 	{
 		"name": "Yanfei",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/yanfei01.png",
@@ -1047,6 +1127,7 @@
 	},
 	{
 		"name": "Xinyan",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/xinyan01.png",
@@ -1063,6 +1144,7 @@
 	},
 	{
 		"name": "Bennett",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/bennett01.png",
@@ -1071,6 +1153,7 @@
 	},
 	{
 		"name": "Xiangling",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/xiangling01.png",
@@ -1081,6 +1164,7 @@
 	},
 	{
 		"name": "Amber",
+		"element": "pyro",
 		"include": true,
 		"images": [
 		"images/amber01.png",

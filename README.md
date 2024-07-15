@@ -7,4 +7,4 @@ Are you tired of:
 
 If you answered yes to any of these, then this tool may be for you.
 
-Disclaimer: This tool is still in development. Thing will be changed and new features will be added over time.
+Disclaimer: This tool is still in development. Things will be changed and new features will be added over time.

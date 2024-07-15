@@ -22,7 +22,11 @@
 					<button class="btn btn-outline-dark btn-lg mb-2" ng-click="displayChar()">Roll</button>
 					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showChar" ng-click="showChar = false;">Hide</button>
 					<div id="single-character" ng-show="showChar">
-						<img ng-src="{{rndChar.selectedImage}}" alt="{{rndChar.name}}" tooltip="{{rndChar.name}}">
+						<img ng-src="{{rndChar.selectedImage}}" alt="{{rndChar.name}}" tooltip="{{rndChar.name}}"
+						ng-class="{'traveler': rndChar.element == 'traveler', 'geo': rndChar.element == 'geo', 
+						'anemo': rndChar.element == 'anemo', 'cryo': rndChar.element == 'cryo',
+						'electro': rndChar.element == 'electro', 'dendro': rndChar.element == 'dendro',
+						'hydro': rndChar.element == 'hydro', 'pyro': rndChar.element == 'pyro'}">
 						<br><br>
 					</div>
 					<p not-enough-characters1 class="alert alert-info mt-2" ng-show="lessThan1"></p>
@@ -33,7 +37,11 @@
 					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showTeam" ng-click="showTeam = false;">Hide</button>
 					<div ng-show="showTeam">
 						<img ng-repeat="char in rndTeam" ng-src="{{char.selectedImage}}"
-						alt="{{char.name}}" tooltip="{{char.name}}">
+						alt="{{char.name}}" tooltip="{{char.name}}"
+						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
 						<br><br>
 					</div>
 					<p not-enough-characters4 class="alert alert-info mt-2" ng-show="lessThan4"></p>
@@ -44,9 +52,17 @@
 					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showTwoTeams" ng-click="showTwoTeams = false;">Hide</button>
 					<div ng-show="showTwoTeams">
 						Team 1:<br><img ng-repeat="char in rndTwoTeams[0]" ng-src="{{char.selectedImage}}"
-								alt="{{char.name}}" tooltip="{{char.name}}"><br>
+								alt="{{char.name}}" tooltip="{{char.name}}"
+						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"><br>
 						Team 2:<br><img ng-repeat="char in rndTwoTeams[1]" ng-src="{{char.selectedImage}}"
-								alt="{{char.name}}" tooltip="{{char.name}}">
+								alt="{{char.name}}" tooltip="{{char.name}}"
+						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
 						<br><br>
 					</div>
 					<p not-enough-characters8 class="alert alert-info mt-2" ng-show="lessThan8"></p>
@@ -56,7 +72,10 @@
 			<div class="row">
 				<section id="character-list" class="col-sm-10">
 					<div ng-repeat="char in characters" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
-						ng-class="{'selected': char.include, 'non-selected': !char.include}">
+						ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
+						'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
 						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
 					</div>
 					<!--<p selected-character-count></p>

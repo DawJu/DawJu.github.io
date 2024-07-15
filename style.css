@@ -18,10 +18,30 @@ img {
   display: inline-block;
 }
 
-.selected {
+/*.selected {
   background-color: rgb(44, 113, 44);
-}
+  border: 3px solid rgb(22, 254, 22);
+}*/
 
 .non-selected {
-  background-color: rgb(123, 49, 49);
+  /*background-color: rgb(123, 49, 49);*/
+  /*border: 3px solid rgb(255, 10, 10);*/
+  filter: opacity(30%);
+  /*filter: grayscale(100%);*/
 }
+
+.geo { background-color: rgb(231, 190, 86); }
+
+.anemo {  background-color: rgb(130, 230, 198); }
+
+.cryo { background-color: rgb(160, 215, 228); }
+
+.electro { background-color: rgb(176, 143, 194); }
+
+.dendro { background-color: rgb(166, 201, 56); }
+
+.hydro { background-color: rgb(51, 204, 255); }
+
+.pyro { background-color: rgb(239, 122, 53); }
+
+.traveler { background-color: rgb(133, 148, 156); }
