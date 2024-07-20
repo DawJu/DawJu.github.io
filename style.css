@@ -10,7 +10,7 @@ img {
   height: 4.6875rem;
 }
 
-#character-list div {
+.character-holder {
   display: inline-block;
 }
 

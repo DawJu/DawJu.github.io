@@ -12,64 +12,81 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 	<script src="script.js"></script>
 </head>
-<body ng-app="myApp" ng-cloak class="text-bg-light">
-	<div ng-controller="myCtrl">
-		<header class="container-fluid p-2 text-bg-dark text-center sticky-top"><h1>Genshin Randomizer</h1></header>
-		<main class="container p-3">
-			<section id="randomizer" class="row">
-				<div class="col">
-					<h3 class="pb-4">Random Character</h3>
-					<button class="btn btn-outline-dark btn-lg mb-2" ng-click="displayChar()">Roll</button>
-					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showChar" ng-click="showChar = false;">Hide</button>
-					<div id="single-character" ng-show="showChar">
-						<img ng-src="{{rndChar.selectedImage}}" alt="{{rndChar.name}}" tooltip="{{rndChar.name}}"
-						ng-class="{'traveler': rndChar.element == 'traveler', 'geo': rndChar.element == 'geo', 
-						'anemo': rndChar.element == 'anemo', 'cryo': rndChar.element == 'cryo',
-						'electro': rndChar.element == 'electro', 'dendro': rndChar.element == 'dendro',
-						'hydro': rndChar.element == 'hydro', 'pyro': rndChar.element == 'pyro'}">
-						<br><br>
-					</div>
-					<p not-enough-characters1 class="alert alert-info mt-2" ng-show="lessThan1"></p>
+<body ng-app="myApp" ng-controller="myCtrl" data-bs-theme="{{colorTheme}}" ng-cloak>
+	<header class="container-fluid p-2 sticky-top"
+	ng-class="{'text-bg-primary': colorTheme == 'light', 'text-bg-secondary': colorTheme == 'dark'}">
+		<div class="clearfix">
+			<h1 class="float-start m-1">Genshin Randomizer</h1>
+			<button class="float-end btn m-1" ng-click="switchTheme()"
+			ng-class="{'btn-dark': colorTheme == 'light', 'btn-primary': colorTheme == 'dark'}">Switch Theme</button>
+		</div>
+	</header>
+	<main class="container p-3">
+		<section id="randomizer" class="row">
+			<div class="col">
+				<h3 class="pb-4">Random Character</h3>
+				<button class="btn btn-lg mb-2" ng-click="displayChar()"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Roll</button>
+				<button class="btn btn-sm mb-2" ng-show="showChar" ng-click="showChar = false;"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Hide</button><br>
+				<div id="single-character" ng-show="showChar"
+				ng-class="{'traveler': rndChar.element == 'traveler', 'geo': rndChar.element == 'geo', 
+				'anemo': rndChar.element == 'anemo', 'cryo': rndChar.element == 'cryo',
+				'electro': rndChar.element == 'electro', 'dendro': rndChar.element == 'dendro',
+				'hydro': rndChar.element == 'hydro', 'pyro': rndChar.element == 'pyro'}"
+				class="character-holder border border-dark p-1">
+					<img ng-src="{{rndChar.selectedImage}}" alt="{{rndChar.name}}" tooltip="{{rndChar.name}}">
 				</div>
-				<div class="col">
-					<h3 class="pb-4">Random Team</h3>
-					<button class="btn btn-outline-dark btn-lg mb-2" ng-click="displayTeam()">Roll</button>
-					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showTeam" ng-click="showTeam = false;">Hide</button>
-					<div ng-show="showTeam">
-						<img ng-repeat="char in rndTeam" ng-src="{{char.selectedImage}}"
-						alt="{{char.name}}" tooltip="{{char.name}}"
-						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
-						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
-						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
-						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
-						<br><br>
-					</div>
-					<p not-enough-characters4 class="alert alert-info mt-2" ng-show="lessThan4"></p>
+				<p not-enough-characters1 class="alert alert-info mt-2" ng-show="lessThan1"></p>
+			</div>
+			<div class="col">
+				<h3 class="pb-4">Random Team</h3>
+				<button class="btn btn-lg mb-2" ng-click="displayTeam()"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Roll</button>
+				<button class="btn btn-sm mb-2" ng-show="showTeam" ng-click="showTeam = false;"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Hide</button><br>
+				<div ng-show="showTeam" ng-repeat="char in rndTeam"
+				ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+				'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+				'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+				'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
+				class="character-holder border border-dark p-1">
+					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
 				</div>
-				<div class="col">
-					<h3 class="pb-4">Two Random Teams</h3>
-					<button class="btn btn-outline-dark btn-lg mb-2" ng-click="displayTwoTeams()">Roll</button>
-					<button class="btn btn-outline-dark btn-sm mb-2" ng-show="showTwoTeams" ng-click="showTwoTeams = false;">Hide</button>
-					<div ng-show="showTwoTeams">
-						Team 1:<br><img ng-repeat="char in rndTwoTeams[0]" ng-src="{{char.selectedImage}}"
-								alt="{{char.name}}" tooltip="{{char.name}}"
-						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
-						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
-						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
-						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"><br>
-						Team 2:<br><img ng-repeat="char in rndTwoTeams[1]" ng-src="{{char.selectedImage}}"
-								alt="{{char.name}}" tooltip="{{char.name}}"
-						ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
-						'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
-						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
-						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
-						<br><br>
+				<p not-enough-characters4 class="alert alert-info mt-2" ng-show="lessThan4"></p>
+			</div>
+			<div class="col">
+				<h3 class="pb-4">Two Random Teams</h3>
+				<button class="btn btn-lg mb-2" ng-click="displayTwoTeams()"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Roll</button>
+				<button class="btn btn-sm mb-2" ng-show="showTwoTeams" ng-click="showTwoTeams = false;"
+				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Hide</button><br>
+				<div ng-show="showTwoTeams">
+					Team 1:<br>
+					<div ng-repeat="char in rndTwoTeams[0]"
+					ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+					'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+					'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+					'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
+					class="character-holder border border-dark p-1">
+						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}"><br>
 					</div>
-					<p not-enough-characters8 class="alert alert-info mt-2" ng-show="lessThan8"></p>
+					<br>
+					Team 2:<br>
+					<div ng-repeat="char in rndTwoTeams[1]"
+					ng-class="{'traveler': char.element == 'traveler', 'geo': char.element == 'geo', 
+					'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+					'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+					'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
+					class="character-holder border border-dark p-1">
+						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
+					</div>
 				</div>
-			</section>
-			<br>
-			<div class="row">
+				<p not-enough-characters8 class="alert alert-info mt-2" ng-show="lessThan8"></p>
+			</div>
+		</section>
+		<br>
+		<div class="row">
 			<section id="settings" class="col-sm-2">
 				<form>
 					<h4 class="pb-2">Search</h4>
@@ -82,25 +99,25 @@
 				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="switchTraveler()">Switch Traveler</button>
 				<hr>
 			</section>
-				<section id="character-list" class="col-sm-10">
-					<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
-						ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
-						'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
-						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
-						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
-						class="border border-dark p-1">
-						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
-					</div>
-					<!--<p selected-character-count></p>
-					<p selected-characters></p>-->
-				</section>
-			</div>
-		</main>
-		<footer class="container-fluid p-2 text-bg-dark">
-			<span disclaimer></span>
-			<p class="mb-1 text-end">Author: Yaku</p>
-			<p class="mb-1 text-end">Contact: Discord@yakuya_</p>
-		</footer>
-	</div>
+			<section id="character-list" class="col-sm-10">
+				<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
+					ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
+					'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
+					'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
+					'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
+					class="character-holder border border-dark p-1">
+					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
+				</div>
+				<!--<p selected-character-count></p>
+				<p selected-characters></p>-->
+			</section>
+		</div>
+	</main>
+	<footer class="container-fluid p-2"
+	ng-class="{'text-bg-primary': colorTheme == 'light', 'text-bg-secondary': colorTheme == 'dark'}">
+		<span disclaimer></span>
+		<p class="mb-1 text-end">Author: Yaku</p>
+		<p class="mb-1 text-end">Contact: Discord@yakuya_</p>
+	</footer>
 </body>
 </html>

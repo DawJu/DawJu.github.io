@@ -65,6 +65,15 @@
 			}
 		};
 
+		const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+		if (darkThemeMq.matches) {
+			$scope.colorTheme = 'dark';
+		} else {
+			$scope.colorTheme = 'light';
+		}
+
+		$scope.switchTheme = function () { $scope.colorTheme = $scope.colorTheme == "light" ? 'dark' : 'light'; };
+
 		$scope.getRandomCharacter = function () {
 			const chars = $scope.getIncluded();
 			let charCount = $scope.getIncludedCount();
