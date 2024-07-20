@@ -6,28 +6,16 @@
 }*/
 
 img {
-  width: 75px;
-  height: 75px;
+  width: 4.6875rem;
+  height: 4.6875rem;
 }
 
 #character-list div {
-  border: 1px solid black;
-  height: auto;
-  width: auto;
-  padding: 5px;
   display: inline-block;
 }
 
-/*.selected {
-  background-color: rgb(44, 113, 44);
-  border: 3px solid rgb(22, 254, 22);
-}*/
-
 .non-selected {
-  /*background-color: rgb(123, 49, 49);*/
-  /*border: 3px solid rgb(255, 10, 10);*/
   filter: opacity(30%);
-  /*filter: grayscale(100%);*/
 }
 
 .geo { background-color: rgb(231, 190, 86); }

@@ -73,7 +73,7 @@
 			<section id="settings" class="col-sm-2">
 				<form>
 					<h4 class="pb-2">Search</h4>
-					<input class="form-control" type="text" placeholder="Search by name" ng-model="searchPhrase">
+					<input class="form-control" type="text" placeholder="Name or tag" ng-model="searchPhrase">
 				</form>
 				<hr>
 				<h4 class="pt-4 pb-4">Settings</h4>
@@ -87,7 +87,8 @@
 						ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
 						'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
 						'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
-						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}">
+						'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
+						class="border border-dark p-1">
 						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
 					</div>
 					<!--<p selected-character-count></p>
