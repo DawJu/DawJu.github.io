@@ -16,9 +16,9 @@
 <body ng-app="myApp" ng-controller="myCtrl" data-bs-theme="{{colorTheme}}" ng-cloak>
 	<header class="container-fluid p-2 sticky-top"
 	ng-class="{'text-bg-primary': colorTheme == 'light', 'text-bg-secondary': colorTheme == 'dark'}">
-		<div class="clearfix">
-			<h1 class="float-start m-1">Genshin Randomizer</h1>
-			<button class="float-end btn m-1" ng-click="switchTheme()"
+		<div class="d-flex justify-content-between">
+			<h1 class="m-1">Genshin Randomizer</h1>
+			<button class="btn m-1" ng-click="switchTheme()"
 			ng-class="{'btn-dark': colorTheme == 'light', 'btn-primary': colorTheme == 'dark'}">Switch Theme</button>
 		</div>
 	</header>
@@ -89,9 +89,10 @@
 		<br>
 		<div class="row">
 			<section id="settings" class="col-sm-2">
-				<form>
-					<h4 class="pb-2">Search</h4>
-					<input class="form-control" type="text" placeholder="Name or tag" ng-model="searchPhrase">
+				<h4>Search</h4>
+				<form class="form-floating">
+					<input type="text" class="form-control" id="phrase" placeholder="Name or tag" ng-model="searchPhrase">
+					<label for="phrase">Name or tag</label>
 				</form>
 				<hr>
 				<h4 class="pt-4 pb-4">Settings</h4>

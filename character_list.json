@@ -786,7 +786,7 @@
 	{
 		"name": "Charlotte",
 		"element": "cryo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/charlotte01.png",
 		"images/charlotte02.png",
