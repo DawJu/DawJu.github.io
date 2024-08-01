@@ -10,6 +10,10 @@ img {
   height: 4.6875rem;
 }
 
+.form-floating label {
+  width: 100%;
+}
+
 .character-holder {
   display: inline-block;
 }
