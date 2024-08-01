@@ -88,7 +88,7 @@
 		</section>
 		<br>
 		<div class="row">
-			<section id="settings" class="col-sm-2">
+			<section id="settings" class="col-md-3 col-lg-2">
 				<h4>Search</h4>
 				<form class="form-floating">
 					<input type="text" class="form-control" id="phrase" placeholder="Name or tag" ng-model="searchPhrase">
@@ -101,7 +101,7 @@
 				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="switchTraveler()">Switch Traveler</button>
 				<hr>
 			</section>
-			<section id="character-list" class="d-flex flex-wrap justify-content-center col-sm-10">
+			<section id="character-list" class="d-flex flex-wrap justify-content-center col-md-9 col-lg-10">
 				<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
 					ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
 					'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
