@@ -4,28 +4,6 @@
 	let app = angular.module("myApp", []);
 	
 	app.controller("myCtrl", function ($scope, $http) {
-		$scope.init = function () {
-			let colorTheme = localStorage.getItem('colorTheme');
-			if (colorTheme) {
-				$scope.colorTheme = colorTheme;
-			} else {
-				const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-				$scope.colorTheme = darkThemeMq.matches ? 'dark' : 'light';
-			}
-		};
-		$scope.init()
-
-		$scope.characters = [];
-		$http.get("character_list.json")
-			.then(function (response) {
-				$scope.characters = response.data.map(char => {
-					const rndId = Math.floor(Math.random() * char.images.length);
-					char.selectedImage = char.images[rndId];
-					return char;
-				});
-			})
-			.catch(function (error) { console.error("Error loading character_list.json: ", error); });
-		
 		$scope.getIncludedCount = function () { return $scope.characters.filter(char => char.include).length; };
 		
 		$scope.getIncludedNames = function () { return $scope.characters.filter(char => char.include).map(char => char.name); };
@@ -50,6 +28,7 @@
 				];
 				let rndId = Math.floor(Math.random() * traveler.images.length);
 				traveler.selectedImage = traveler.images[rndId];
+				localStorage.setItem("traveler", "lumine");
 			}
 			else {
 				traveler.images = [
@@ -73,12 +52,13 @@
 				];
 				let rndId = Math.floor(Math.random() * traveler.images.length);
 				traveler.selectedImage = traveler.images[rndId];
+				localStorage.setItem("traveler", "aether");
 			}
 		};
 
 		$scope.switchTheme = function () {
-			$scope.colorTheme = $scope.colorTheme == "light" ? 'dark' : 'light';
-			localStorage.setItem('colorTheme', $scope.colorTheme);
+			$scope.colorTheme = $scope.colorTheme == "light" ? "dark" : "light";
+			localStorage.setItem("colorTheme", $scope.colorTheme);
 		};
 
 		$scope.getRandomCharacter = function () {
@@ -133,6 +113,93 @@
 				new bootstrap.Tooltip(element);
 			}
 		}
+
+		// Load data from local storage
+		$scope.init = function () {
+			// Load color theme choice
+			let colorTheme = localStorage.getItem("colorTheme");
+			if (colorTheme) {
+				$scope.colorTheme = colorTheme;
+			} else {
+				const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+				$scope.colorTheme = darkThemeMq.matches ? "dark" : "light";
+			}
+
+			// Load character selection & traveler choice
+			let storedCharacters = localStorage.getItem("deselectedCharacters");
+			let deselectedCharacters = storedCharacters ? JSON.parse(storedCharacters) : {};
+			let traveler_choice = localStorage.getItem("traveler");
+			$http.get("character_list.json")
+				.then(function (response) {
+					$scope.characters = response.data.map(char => {
+						char.include = !deselectedCharacters[char.name];
+						if (char.name == "Traveler") {
+							if (traveler_choice == "lumine") {
+								char.images = [
+									"images/traveler/lumine01.png",
+									"images/traveler/lumine02.png",
+									"images/traveler/lumine03.png",
+									"images/traveler/lumine04.png",
+									"images/traveler/lumine05.png"
+								];
+							}
+							else {
+								char.images = [
+									"images/traveler/aether01.png",
+									"images/traveler/aether02.png",
+									"images/traveler/aether03.png",
+									"images/traveler/aether04.png",
+									"images/traveler/aether05.png",
+									"images/traveler/aether06.png",
+									"images/traveler/aether07.png",
+									"images/traveler/aether08.png",
+									"images/traveler/aether09.png",
+									"images/traveler/aether10.png",
+									"images/traveler/aether11.png",
+									"images/traveler/aether12.png",
+									"images/traveler/aether13.png",
+									"images/traveler/aether14.png",
+									"images/traveler/aether15.png",
+									"images/traveler/aether16.png",
+									"images/traveler/aether17.png"
+								];
+							}
+						}
+						let rndId = Math.floor(Math.random() * char.images.length);
+						char.selectedImage = char.images[rndId];
+						return char;
+					});
+				})
+				.catch(function (error) { console.error("Error loading character_list.json: ", error); });
+			
+			// Load traveler choice
+			/*let traveler = $scope.characters[0];
+			if (traveler_choice == 'lumine') {
+				traveler.images = [
+					"images/traveler/lumine01.png",
+					"images/traveler/lumine02.png",
+					"images/traveler/lumine03.png",
+					"images/traveler/lumine04.png",
+					"images/traveler/lumine05.png"
+				];
+				let rndId = Math.floor(Math.random() * traveler.images.length);
+				traveler.selectedImage = traveler.images[rndId];
+			}*/
+			// Aether is default, so no need to do anything else
+		};
+		$scope.init()
+
+		$scope.$watch("characters", function (newVal) {
+			if (newVal) {
+				let deselectedCharacters = {};
+				newVal.forEach(char => {
+					if (!char.include) {
+						deselectedCharacters[char.name] = true;
+					}
+				});
+				localStorage.setItem("deselectedCharacters", JSON.stringify(deselectedCharacters));
+			}
+		}, true);
 		
 		$scope.displayChar = function () {
 			let enoughChars = $scope.getIncludedCount() >= 1;

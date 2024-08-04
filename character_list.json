@@ -26,7 +26,7 @@
 	{
 		"name": "Chiori",
 		"element": "geo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/chiori01.png",
 		"images/chiori02.png",
@@ -37,7 +37,7 @@
 	{
 		"name": "Navia",
 		"element": "geo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/navia01.png",
 		"images/navia02.png",
@@ -51,7 +51,7 @@
 	{
 		"name": "Arataki Itto",
 		"element": "geo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/itto01.png",
 		"images/itto02.png",
@@ -102,7 +102,7 @@
 	{
 		"name": "Xianyun",
 		"element": "anemo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/xianyun01.png",
 		"images/xianyun02.png",
@@ -207,7 +207,7 @@
 	{
 		"name": "Wriothesley",
 		"element": "cryo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/wriothesley01.png",
 		"images/wriothesley02.png",
@@ -231,7 +231,7 @@
 	{
 		"name": "Aloy",
 		"element": "cryo",
-		"include": false,
+		"include": true,
 		"images": ["images/aloy01.webp"]
 	},
 	{
@@ -304,7 +304,7 @@
 	{
 		"name": "Clorinde",
 		"element": "electro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/clorinde01.png",
 		"images/clorinde02.webp",
@@ -316,7 +316,7 @@
 	{
 		"name": "Cyno",
 		"element": "electro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/cyno01.png",
 		"images/cyno02.png",
@@ -441,7 +441,7 @@
 	{
 		"name": "Sigewinne",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/sigewinne01.webp",
 		"images/sigewinne02.webp",
@@ -452,7 +452,7 @@
 	{
 		"name": "Furina",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/furina01.png",
 		"images/furina02.png",
@@ -465,7 +465,7 @@
 	{
 		"name": "Neuvillette",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/neuvillette01.png",
 		"images/neuvillette02.png",
@@ -477,7 +477,7 @@
 	{
 		"name": "Nilou",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/nilou01.png",
 		"images/nilou02.png",
@@ -488,7 +488,7 @@
 	{
 		"name": "Kamisato Ayato",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/ayato01.png",
 		"images/ayato02.png",
@@ -512,7 +512,7 @@
 	{
 		"name": "Sangonomiya Kokomi",
 		"element": "hydro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/kokomi01.png",
 		"images/kokomi02.png",
@@ -568,7 +568,7 @@
 	{
 		"name": "Arlecchino",
 		"element": "pyro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/arlecchino01.png",
 		"images/arlecchino02.png",
@@ -581,7 +581,7 @@
 	{
 		"name": "Lyney",
 		"element": "pyro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/lyney01.png",
 		"images/lyney02.png",
@@ -624,7 +624,7 @@
 	{
 		"name": "Hu Tao",
 		"element": "pyro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/hutao01.png",
 		"images/hutao02.png",
@@ -718,7 +718,7 @@
 	{
 		"name": "Lynette",
 		"element": "anemo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/lynette01.png",
 		"images/lynette02.png",
@@ -799,7 +799,7 @@
 	{
 		"name": "Freminet",
 		"element": "cryo",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/freminet01.png",
 		"images/freminet02.png",
@@ -889,7 +889,7 @@
 	{
 		"name": "Sethos",
 		"element": "electro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/sethos01.webp",
 		"images/sethos02.webp",
@@ -1074,7 +1074,7 @@
 	{
 		"name": "Chevreuse",
 		"element": "pyro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/chevreuse01.png",
 		"images/chevreuse02.png",
@@ -1086,7 +1086,7 @@
 	{
 		"name": "Gaming",
 		"element": "pyro",
-		"include": false,
+		"include": true,
 		"images": [
 		"images/gaming01.png",
 		"images/gaming02.png",
