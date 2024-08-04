@@ -4,6 +4,17 @@
 	let app = angular.module("myApp", []);
 	
 	app.controller("myCtrl", function ($scope, $http) {
+		$scope.init = function () {
+			let colorTheme = localStorage.getItem('colorTheme');
+			if (colorTheme) {
+				$scope.colorTheme = colorTheme;
+			} else {
+				const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+				$scope.colorTheme = darkThemeMq.matches ? 'dark' : 'light';
+			}
+		};
+		$scope.init()
+
 		$scope.characters = [];
 		$http.get("character_list.json")
 			.then(function (response) {
@@ -65,14 +76,10 @@
 			}
 		};
 
-		const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-		if (darkThemeMq.matches) {
-			$scope.colorTheme = 'dark';
-		} else {
-			$scope.colorTheme = 'light';
-		}
-
-		$scope.switchTheme = function () { $scope.colorTheme = $scope.colorTheme == "light" ? 'dark' : 'light'; };
+		$scope.switchTheme = function () {
+			$scope.colorTheme = $scope.colorTheme == "light" ? 'dark' : 'light';
+			localStorage.setItem('colorTheme', $scope.colorTheme);
+		};
 
 		$scope.getRandomCharacter = function () {
 			const chars = $scope.getIncluded();
