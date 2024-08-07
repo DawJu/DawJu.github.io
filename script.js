@@ -3,7 +3,7 @@
 	
 	let app = angular.module("myApp", []);
 	
-	app.controller("myCtrl", function ($scope, $http) {
+	app.controller("myCtrl", function ($scope, $http, $timeout) {
 		$scope.getIncludedCount = function () { return $scope.characters.filter(char => char.include).length; };
 		
 		$scope.getIncludedNames = function () { return $scope.characters.filter(char => char.include).map(char => char.name); };
@@ -171,22 +171,29 @@
 					});
 				})
 				.catch(function (error) { console.error("Error loading character_list.json: ", error); });
-			
-			// Load traveler choice
-			/*let traveler = $scope.characters[0];
-			if (traveler_choice == 'lumine') {
-				traveler.images = [
-					"images/traveler/lumine01.png",
-					"images/traveler/lumine02.png",
-					"images/traveler/lumine03.png",
-					"images/traveler/lumine04.png",
-					"images/traveler/lumine05.png"
-				];
-				let rndId = Math.floor(Math.random() * traveler.images.length);
-				traveler.selectedImage = traveler.images[rndId];
-			}*/
-			// Aether is default, so no need to do anything else
 		};
+
+		$scope.handleKeydown = function (event, index) {
+			const elements = document.querySelectorAll("#character-list > div");
+			switch (event.key) {
+				case "Enter":
+				case " ":
+					event.preventDefault();
+					$scope.toggleInclude($scope.characters[index]);
+					break;
+				case "ArrowLeft":
+					if (index > 0) {
+						$timeout(() => elements[index - 1].focus(), 0);
+					}
+					break;
+				case "ArrowRight":
+					if (index < elements.length - 1) {
+						$timeout(() => elements[index + 1].focus(), 0);
+					}
+					break;
+			}
+		};
+
 		$scope.init()
 
 		$scope.$watch("characters", function (newVal) {

@@ -102,13 +102,14 @@
 				<hr>
 			</section>
 			<section id="character-list" class="d-flex flex-wrap align-content-start justify-content-center col-md-9 col-lg-10">
-				<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" ng-click="toggleInclude(char)"
+				<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" tabindex=0
 					ng-class="{'non-selected': !char.include, 'traveler': char.element == 'traveler',
 					'geo': char.element == 'geo', 'anemo': char.element == 'anemo', 'cryo': char.element == 'cryo',
 					'electro': char.element == 'electro', 'dendro': char.element == 'dendro',
 					'hydro': char.element == 'hydro', 'pyro': char.element == 'pyro'}"
-					class="character-holder border border-dark p-1">
-					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}" tooltip="{{char.name}}">
+					class="character-holder border border-dark p-1" tooltip="{{char.name}}"
+					ng-keydown="handleKeydown($event, $index)" ng-click="toggleInclude(char)">
+					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}">
 				</div>
 				<!--<p selected-character-count></p>
 				<p selected-characters></p>-->
