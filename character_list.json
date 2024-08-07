@@ -4,23 +4,23 @@
 		"element": "traveler",
 		"include": true,
 		"images": [
-		"images/traveler/aether01.png",
-		"images/traveler/aether02.png",
-		"images/traveler/aether03.png",
-		"images/traveler/aether04.png",
-		"images/traveler/aether05.png",
-		"images/traveler/aether06.png",
-		"images/traveler/aether07.png",
-		"images/traveler/aether08.png",
-		"images/traveler/aether09.png",
-		"images/traveler/aether10.png",
-		"images/traveler/aether11.png",
-		"images/traveler/aether12.png",
-		"images/traveler/aether13.png",
-		"images/traveler/aether14.png",
-		"images/traveler/aether15.png",
-		"images/traveler/aether16.png",
-		"images/traveler/aether17.png"
+			"images/traveler/aether01.png",
+			"images/traveler/aether02.png",
+			"images/traveler/aether03.png",
+			"images/traveler/aether04.png",
+			"images/traveler/aether05.png",
+			"images/traveler/aether06.png",
+			"images/traveler/aether07.png",
+			"images/traveler/aether08.png",
+			"images/traveler/aether09.png",
+			"images/traveler/aether10.png",
+			"images/traveler/aether11.png",
+			"images/traveler/aether12.png",
+			"images/traveler/aether13.png",
+			"images/traveler/aether14.png",
+			"images/traveler/aether15.png",
+			"images/traveler/aether16.png",
+			"images/traveler/aether17.png"
 		]
 	},
 	{
@@ -28,10 +28,10 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/chiori01.png",
-		"images/chiori02.png",
-		"images/chiori03.png",
-		"images/chiori04.png"
+			"images/chiori01.png",
+			"images/chiori02.png",
+			"images/chiori03.png",
+			"images/chiori04.png"
 		]
 	},
 	{
@@ -39,13 +39,15 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/navia01.png",
-		"images/navia02.png",
-		"images/navia03.png",
-		"images/navia04.png",
-		"images/navia05.png",
-		"images/navia06.png",
-		"images/navia07.png"
+			"images/navia01.png",
+			"images/navia02.png",
+			"images/navia03.png",
+			"images/navia04.png",
+			"images/navia05.png",
+			"images/navia06.png",
+			"images/navia07.png",
+			"images/navia08.webp",
+			"images/navia09.webp"
 		]
 	},
 	{
@@ -53,16 +55,16 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/itto01.png",
-		"images/itto02.png",
-		"images/itto03.png",
-		"images/itto04.png",
-		"images/itto05.png",
-		"images/itto06.png",
-		"images/itto07.png",
-		"images/itto08.png",
-		"images/itto09.png",
-		"images/itto10.png"
+			"images/itto01.png",
+			"images/itto02.png",
+			"images/itto03.png",
+			"images/itto04.png",
+			"images/itto05.png",
+			"images/itto06.png",
+			"images/itto07.png",
+			"images/itto08.png",
+			"images/itto09.png",
+			"images/itto10.png"
 		]
 	},
 	{
@@ -70,16 +72,16 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/albedo01.png",
-		"images/albedo02.png",
-		"images/albedo03.png",
-		"images/albedo04.png",
-		"images/albedo05.png",
-		"images/albedo06.png",
-		"images/albedo07.png",
-		"images/albedo08.png",
-		"images/albedo09.png",
-		"images/albedo10.png"
+			"images/albedo01.png",
+			"images/albedo02.png",
+			"images/albedo03.png",
+			"images/albedo04.png",
+			"images/albedo05.png",
+			"images/albedo06.png",
+			"images/albedo07.png",
+			"images/albedo08.png",
+			"images/albedo09.png",
+			"images/albedo10.png"
 		]
 	},
 	{
@@ -87,16 +89,16 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/zhongli01.png",
-		"images/zhongli02.png",
-		"images/zhongli03.png",
-		"images/zhongli04.png",
-		"images/zhongli05.png",
-		"images/zhongli06.png",
-		"images/zhongli07.png",
-		"images/zhongli08.png",
-		"images/zhongli09.png",
-		"images/zhongli10.png"
+			"images/zhongli01.png",
+			"images/zhongli02.png",
+			"images/zhongli03.png",
+			"images/zhongli04.png",
+			"images/zhongli05.png",
+			"images/zhongli06.png",
+			"images/zhongli07.png",
+			"images/zhongli08.png",
+			"images/zhongli09.png",
+			"images/zhongli10.png"
 		]
 	},
 	{
@@ -104,13 +106,13 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/xianyun01.png",
-		"images/xianyun02.png",
-		"images/xianyun03.png",
-		"images/xianyun04.png",
-		"images/xianyun05.png",
-		"images/xianyun06.png",
-		"images/xianyun07.png"
+			"images/xianyun01.png",
+			"images/xianyun02.png",
+			"images/xianyun03.png",
+			"images/xianyun04.png",
+			"images/xianyun05.png",
+			"images/xianyun06.png",
+			"images/xianyun07.png"
 		]
 	},
 	{
@@ -118,13 +120,15 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/wanderer01.png",
-		"images/wanderer02.png",
-		"images/wanderer03.png",
-		"images/wanderer04.png",
-		"images/wanderer05.png",
-		"images/wanderer06.png",
-		"images/wanderer07.png"
+			"images/wanderer01.png",
+			"images/wanderer02.png",
+			"images/wanderer03.png",
+			"images/wanderer04.png",
+			"images/wanderer05.png",
+			"images/wanderer06.png",
+			"images/wanderer07.png",
+			"images/wanderer08.webp",
+			"images/wanderer09.webp"
 		]
 	},
 	{
@@ -132,14 +136,14 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/kazuha01.png",
-		"images/kazuha02.png",
-		"images/kazuha03.png",
-		"images/kazuha04.png",
-		"images/kazuha05.png",
-		"images/kazuha06.png",
-		"images/kazuha07.png",
-		"images/kazuha08.png"
+			"images/kazuha01.png",
+			"images/kazuha02.png",
+			"images/kazuha03.png",
+			"images/kazuha04.png",
+			"images/kazuha05.png",
+			"images/kazuha06.png",
+			"images/kazuha07.png",
+			"images/kazuha08.png"
 		]
 	},
 	{
@@ -147,22 +151,22 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/xiao01.png",
-		"images/xiao02.png",
-		"images/xiao03.png",
-		"images/xiao04.png",
-		"images/xiao05.png",
-		"images/xiao06.png",
-		"images/xiao07.png",
-		"images/xiao08.png",
-		"images/xiao09.png",
-		"images/xiao10.png",
-		"images/xiao11.png",
-		"images/xiao12.png",
-		"images/xiao13.png",
-		"images/xiao14.png",
-		"images/xiao15.png",
-		"images/xiao16.png"
+			"images/xiao01.png",
+			"images/xiao02.png",
+			"images/xiao03.png",
+			"images/xiao04.png",
+			"images/xiao05.png",
+			"images/xiao06.png",
+			"images/xiao07.png",
+			"images/xiao08.png",
+			"images/xiao09.png",
+			"images/xiao10.png",
+			"images/xiao11.png",
+			"images/xiao12.png",
+			"images/xiao13.png",
+			"images/xiao14.png",
+			"images/xiao15.png",
+			"images/xiao16.png"
 		]
 	},
 	{
@@ -170,22 +174,22 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/venti01.png",
-		"images/venti02.png",
-		"images/venti03.png",
-		"images/venti04.png",
-		"images/venti05.png",
-		"images/venti06.png",
-		"images/venti07.png",
-		"images/venti08.png",
-		"images/venti09.png",
-		"images/venti10.png",
-		"images/venti11.png",
-		"images/venti12.png",
-		"images/venti13.png",
-		"images/venti14.png",
-		"images/venti15.png",
-		"images/venti16.png"
+			"images/venti01.png",
+			"images/venti02.png",
+			"images/venti03.png",
+			"images/venti04.png",
+			"images/venti05.png",
+			"images/venti06.png",
+			"images/venti07.png",
+			"images/venti08.png",
+			"images/venti09.png",
+			"images/venti10.png",
+			"images/venti11.png",
+			"images/venti12.png",
+			"images/venti13.png",
+			"images/venti14.png",
+			"images/venti15.png",
+			"images/venti16.png"
 		]
 	},
 	{
@@ -193,15 +197,15 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/jean01.png",
-		"images/jean02.png",
-		"images/jean03.png",
-		"images/jean04.png",
-		"images/jean05.png",
-		"images/jean06.png",
-		"images/jean07.png",
-		"images/jean08.png",
-		"images/jean09.png"
+			"images/jean01.png",
+			"images/jean02.png",
+			"images/jean03.png",
+			"images/jean04.png",
+			"images/jean05.png",
+			"images/jean06.png",
+			"images/jean07.png",
+			"images/jean08.png",
+			"images/jean09.png"
 		]
 	},
 	{
@@ -209,10 +213,10 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/wriothesley01.png",
-		"images/wriothesley02.png",
-		"images/wriothesley03.png",
-		"images/wriothesley04.png"
+			"images/wriothesley01.png",
+			"images/wriothesley02.png",
+			"images/wriothesley03.png",
+			"images/wriothesley04.png"
 		]
 	},
 	{
@@ -220,12 +224,12 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/shenhe01.png",
-		"images/shenhe02.png",
-		"images/shenhe03.png",
-		"images/shenhe04.png",
-		"images/shenhe05.png",
-		"images/shenhe06.png"
+			"images/shenhe01.png",
+			"images/shenhe02.png",
+			"images/shenhe03.png",
+			"images/shenhe04.png",
+			"images/shenhe05.png",
+			"images/shenhe06.png"
 		]
 	},
 	{
@@ -239,18 +243,18 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/eula01.png",
-		"images/eula02.png",
-		"images/eula03.png",
-		"images/eula04.png",
-		"images/eula05.png",
-		"images/eula06.png",
-		"images/eula07.png",
-		"images/eula08.png",
-		"images/eula09.png",
-		"images/eula10.png",
-		"images/eula11.png",
-		"images/eula12.png"
+			"images/eula01.png",
+			"images/eula02.png",
+			"images/eula03.png",
+			"images/eula04.png",
+			"images/eula05.png",
+			"images/eula06.png",
+			"images/eula07.png",
+			"images/eula08.png",
+			"images/eula09.png",
+			"images/eula10.png",
+			"images/eula11.png",
+			"images/eula12.png"
 		]
 	},
 	{
@@ -258,16 +262,16 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/ganyu01.png",
-		"images/ganyu02.png",
-		"images/ganyu03.png",
-		"images/ganyu04.png",
-		"images/ganyu05.png",
-		"images/ganyu06.png",
-		"images/ganyu07.png",
-		"images/ganyu08.png",
-		"images/ganyu09.png",
-		"images/ganyu10.png"
+			"images/ganyu01.png",
+			"images/ganyu02.png",
+			"images/ganyu03.png",
+			"images/ganyu04.png",
+			"images/ganyu05.png",
+			"images/ganyu06.png",
+			"images/ganyu07.png",
+			"images/ganyu08.png",
+			"images/ganyu09.png",
+			"images/ganyu10.png"
 		]
 	},
 	{
@@ -275,12 +279,12 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/qiqi01.png",
-		"images/qiqi02.png",
-		"images/qiqi03.png",
-		"images/qiqi04.png",
-		"images/qiqi05.png",
-		"images/qiqi06.png"
+			"images/qiqi01.png",
+			"images/qiqi02.png",
+			"images/qiqi03.png",
+			"images/qiqi04.png",
+			"images/qiqi05.png",
+			"images/qiqi06.png"
 		]
 	},
 	{
@@ -288,17 +292,17 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/ayaka01.png",
-		"images/ayaka02.png",
-		"images/ayaka03.png",
-		"images/ayaka04.png",
-		"images/ayaka05.png",
-		"images/ayaka06.png",
-		"images/ayaka07.png",
-		"images/ayaka08.png",
-		"images/ayaka09.png",
-		"images/ayaka10.png",
-		"images/ayaka11.png"
+			"images/ayaka01.png",
+			"images/ayaka02.png",
+			"images/ayaka03.png",
+			"images/ayaka04.png",
+			"images/ayaka05.png",
+			"images/ayaka06.png",
+			"images/ayaka07.png",
+			"images/ayaka08.png",
+			"images/ayaka09.png",
+			"images/ayaka10.png",
+			"images/ayaka11.png"
 		]
 	},
 	{
@@ -306,11 +310,11 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/clorinde01.png",
-		"images/clorinde02.webp",
-		"images/clorinde03.webp",
-		"images/clorinde04.webp",
-		"images/clorinde05.webp"
+			"images/clorinde01.png",
+			"images/clorinde02.webp",
+			"images/clorinde03.webp",
+			"images/clorinde04.webp",
+			"images/clorinde05.webp"
 		]
 	},
 	{
@@ -318,16 +322,16 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/cyno01.png",
-		"images/cyno02.png",
-		"images/cyno03.png",
-		"images/cyno04.png",
-		"images/cyno05.png",
-		"images/cyno06.png",
-		"images/cyno07.png",
-		"images/cyno08.png",
-		"images/cyno09.png",
-		"images/cyno10.png"
+			"images/cyno01.png",
+			"images/cyno02.png",
+			"images/cyno03.png",
+			"images/cyno04.png",
+			"images/cyno05.png",
+			"images/cyno06.png",
+			"images/cyno07.png",
+			"images/cyno08.png",
+			"images/cyno09.png",
+			"images/cyno10.png"
 		]
 	},
 	{
@@ -335,14 +339,14 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/miko01.png",
-		"images/miko02.png",
-		"images/miko03.png",
-		"images/miko04.png",
-		"images/miko05.png",
-		"images/miko06.png",
-		"images/miko07.png",
-		"images/miko08.png"
+			"images/miko01.png",
+			"images/miko02.png",
+			"images/miko03.png",
+			"images/miko04.png",
+			"images/miko05.png",
+			"images/miko06.png",
+			"images/miko07.png",
+			"images/miko08.png"
 		]
 	},
 	{
@@ -350,18 +354,18 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/raiden01.png",
-		"images/raiden02.png",
-		"images/raiden03.png",
-		"images/raiden04.png",
-		"images/raiden05.png",
-		"images/raiden06.png",
-		"images/raiden07.png",
-		"images/raiden08.png",
-		"images/raiden09.png",
-		"images/raiden10.png",
-		"images/raiden11.png",
-		"images/raiden12.png"
+			"images/raiden01.png",
+			"images/raiden02.png",
+			"images/raiden03.png",
+			"images/raiden04.png",
+			"images/raiden05.png",
+			"images/raiden06.png",
+			"images/raiden07.png",
+			"images/raiden08.png",
+			"images/raiden09.png",
+			"images/raiden10.png",
+			"images/raiden11.png",
+			"images/raiden12.png"
 		]
 	},
 	{
@@ -369,21 +373,32 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/keqing01.png",
-		"images/keqing02.png",
-		"images/keqing03.png",
-		"images/keqing04.png",
-		"images/keqing05.png",
-		"images/keqing06.png",
-		"images/keqing07.png",
-		"images/keqing08.png",
-		"images/keqing09.png",
-		"images/keqing10.png",
-		"images/keqing11.png",
-		"images/keqing12.png",
-		"images/keqing13.png",
-		"images/keqing14.png",
-		"images/keqing15.png"
+			"images/keqing01.png",
+			"images/keqing02.png",
+			"images/keqing03.png",
+			"images/keqing04.png",
+			"images/keqing05.png",
+			"images/keqing06.png",
+			"images/keqing07.png",
+			"images/keqing08.png",
+			"images/keqing09.png",
+			"images/keqing10.png",
+			"images/keqing11.png",
+			"images/keqing12.png",
+			"images/keqing13.png",
+			"images/keqing14.png",
+			"images/keqing15.png"
+		]
+	},
+	{
+		"name": "Emilie",
+		"element": "dendro",
+		"include": true,
+		"images": [
+			"images/emilie01.webp",
+			"images/emilie02.webp",
+			"images/emilie03.webp",
+			"images/emilie04.webp"
 		]
 	},
 	{
@@ -391,10 +406,10 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/baizhu01.png",
-		"images/baizhu02.png",
-		"images/baizhu03.png",
-		"images/baizhu04.png"
+			"images/baizhu01.png",
+			"images/baizhu02.png",
+			"images/baizhu03.png",
+			"images/baizhu04.png"
 		]
 	},
 	{
@@ -402,10 +417,10 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/alhaitham01.png",
-		"images/alhaitham02.png",
-		"images/alhaitham03.png",
-		"images/alhaitham04.png"
+			"images/alhaitham01.png",
+			"images/alhaitham02.png",
+			"images/alhaitham03.png",
+			"images/alhaitham04.png"
 		]
 	},
 	{
@@ -413,14 +428,14 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/nahida01.png",
-		"images/nahida02.png",
-		"images/nahida03.png",
-		"images/nahida04.png",
-		"images/nahida05.png",
-		"images/nahida06.png",
-		"images/nahida07.png",
-		"images/nahida08.png"
+			"images/nahida01.png",
+			"images/nahida02.png",
+			"images/nahida03.png",
+			"images/nahida04.png",
+			"images/nahida05.png",
+			"images/nahida06.png",
+			"images/nahida07.png",
+			"images/nahida08.png"
 		]
 	},
 	{
@@ -428,14 +443,14 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/tighnari01.png",
-		"images/tighnari02.png",
-		"images/tighnari03.png",
-		"images/tighnari04.png",
-		"images/tighnari05.png",
-		"images/tighnari06.png",
-		"images/tighnari07.png",
-		"images/tighnari08.png"
+			"images/tighnari01.png",
+			"images/tighnari02.png",
+			"images/tighnari03.png",
+			"images/tighnari04.png",
+			"images/tighnari05.png",
+			"images/tighnari06.png",
+			"images/tighnari07.png",
+			"images/tighnari08.png"
 		]
 	},
 	{
@@ -443,10 +458,10 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/sigewinne01.webp",
-		"images/sigewinne02.webp",
-		"images/sigewinne03.webp",
-		"images/sigewinne04.webp"
+			"images/sigewinne01.webp",
+			"images/sigewinne02.webp",
+			"images/sigewinne03.webp",
+			"images/sigewinne04.webp"
 		]
 	},
 	{
@@ -454,12 +469,12 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/furina01.png",
-		"images/furina02.png",
-		"images/furina03.png",
-		"images/furina04.png",
-		"images/furina05.png",
-		"images/furina06.png"
+			"images/furina01.png",
+			"images/furina02.png",
+			"images/furina03.png",
+			"images/furina04.png",
+			"images/furina05.png",
+			"images/furina06.png"
 		]
 	},
 	{
@@ -467,11 +482,11 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/neuvillette01.png",
-		"images/neuvillette02.png",
-		"images/neuvillette03.png",
-		"images/neuvillette04.png",
-		"images/neuvillette05.png"
+			"images/neuvillette01.png",
+			"images/neuvillette02.png",
+			"images/neuvillette03.png",
+			"images/neuvillette04.png",
+			"images/neuvillette05.png"
 		]
 	},
 	{
@@ -479,10 +494,12 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/nilou01.png",
-		"images/nilou02.png",
-		"images/nilou03.png",
-		"images/nilou04.png"
+			"images/nilou01.png",
+			"images/nilou02.png",
+			"images/nilou03.png",
+			"images/nilou04.png",
+			"images/nilou05.webp",
+			"images/nilou06.webp"
 		]
 	},
 	{
@@ -490,11 +507,11 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/ayato01.png",
-		"images/ayato02.png",
-		"images/ayato03.png",
-		"images/ayato04.png",
-		"images/ayato05.png"
+			"images/ayato01.png",
+			"images/ayato02.png",
+			"images/ayato03.png",
+			"images/ayato04.png",
+			"images/ayato05.png"
 		]
 	},
 	{
@@ -502,11 +519,11 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/yelan01.png",
-		"images/yelan02.png",
-		"images/yelan03.png",
-		"images/yelan04.png",
-		"images/yelan05.png"
+			"images/yelan01.png",
+			"images/yelan02.png",
+			"images/yelan03.png",
+			"images/yelan04.png",
+			"images/yelan05.png"
 		]
 	},
 	{
@@ -514,16 +531,16 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/kokomi01.png",
-		"images/kokomi02.png",
-		"images/kokomi03.png",
-		"images/kokomi04.png",
-		"images/kokomi05.png",
-		"images/kokomi06.png",
-		"images/kokomi07.png",
-		"images/kokomi08.png",
-		"images/kokomi09.png",
-		"images/kokomi10.png"
+			"images/kokomi01.png",
+			"images/kokomi02.png",
+			"images/kokomi03.png",
+			"images/kokomi04.png",
+			"images/kokomi05.png",
+			"images/kokomi06.png",
+			"images/kokomi07.png",
+			"images/kokomi08.png",
+			"images/kokomi09.png",
+			"images/kokomi10.png"
 		]
 	},
 	{
@@ -531,15 +548,15 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/mona01.png",
-		"images/mona02.png",
-		"images/mona03.png",
-		"images/mona04.png",
-		"images/mona05.png",
-		"images/mona06.png",
-		"images/mona07.png",
-		"images/mona08.png",
-		"images/mona09.png"
+			"images/mona01.png",
+			"images/mona02.png",
+			"images/mona03.png",
+			"images/mona04.png",
+			"images/mona05.png",
+			"images/mona06.png",
+			"images/mona07.png",
+			"images/mona08.png",
+			"images/mona09.png"
 		]
 	},
 	{
@@ -547,22 +564,22 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/tartaglia01.png",
-		"images/tartaglia02.png",
-		"images/tartaglia03.png",
-		"images/tartaglia04.png",
-		"images/tartaglia05.png",
-		"images/tartaglia06.png",
-		"images/tartaglia07.png",
-		"images/tartaglia08.png",
-		"images/tartaglia09.png",
-		"images/tartaglia10.png",
-		"images/tartaglia11.png",
-		"images/tartaglia12.png",
-		"images/tartaglia13.png",
-		"images/tartaglia14.png",
-		"images/tartaglia15.png",
-		"images/tartaglia16.png"
+			"images/tartaglia01.png",
+			"images/tartaglia02.png",
+			"images/tartaglia03.png",
+			"images/tartaglia04.png",
+			"images/tartaglia05.png",
+			"images/tartaglia06.png",
+			"images/tartaglia07.png",
+			"images/tartaglia08.png",
+			"images/tartaglia09.png",
+			"images/tartaglia10.png",
+			"images/tartaglia11.png",
+			"images/tartaglia12.png",
+			"images/tartaglia13.png",
+			"images/tartaglia14.png",
+			"images/tartaglia15.png",
+			"images/tartaglia16.png"
 		]
 	},
 	{
@@ -570,12 +587,12 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/arlecchino01.png",
-		"images/arlecchino02.png",
-		"images/arlecchino03.png",
-		"images/arlecchino04.png",
-		"images/arlecchino05.png",
-		"images/arlecchino06.png"
+			"images/arlecchino01.png",
+			"images/arlecchino02.png",
+			"images/arlecchino03.png",
+			"images/arlecchino04.png",
+			"images/arlecchino05.png",
+			"images/arlecchino06.png"
 		]
 	},
 	{
@@ -583,13 +600,13 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/lyney01.png",
-		"images/lyney02.png",
-		"images/lyney03.png",
-		"images/lyney04.png",
-		"images/lyney05.png",
-		"images/lyney06.png",
-		"images/lyney07.png"
+			"images/lyney01.png",
+			"images/lyney02.png",
+			"images/lyney03.png",
+			"images/lyney04.png",
+			"images/lyney05.png",
+			"images/lyney06.png",
+			"images/lyney07.png"
 		]
 	},
 	{
@@ -597,10 +614,10 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/dehya01.png",
-		"images/dehya02.png",
-		"images/dehya03.png",
-		"images/dehya04.png"
+			"images/dehya01.png",
+			"images/dehya02.png",
+			"images/dehya03.png",
+			"images/dehya04.png"
 		]
 	},
 	{
@@ -608,17 +625,17 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/yoimiya01.png",
-		"images/yoimiya02.png",
-		"images/yoimiya03.png",
-		"images/yoimiya04.png",
-		"images/yoimiya05.png",
-		"images/yoimiya06.png",
-		"images/yoimiya07.png",
-		"images/yoimiya08.png",
-		"images/yoimiya09.png",
-		"images/yoimiya10.png",
-		"images/yoimiya11.png"
+			"images/yoimiya01.png",
+			"images/yoimiya02.png",
+			"images/yoimiya03.png",
+			"images/yoimiya04.png",
+			"images/yoimiya05.png",
+			"images/yoimiya06.png",
+			"images/yoimiya07.png",
+			"images/yoimiya08.png",
+			"images/yoimiya09.png",
+			"images/yoimiya10.png",
+			"images/yoimiya11.png"
 		]
 	},
 	{
@@ -626,25 +643,25 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/hutao01.png",
-		"images/hutao02.png",
-		"images/hutao03.png",
-		"images/hutao04.png",
-		"images/hutao05.png",
-		"images/hutao06.png",
-		"images/hutao07.png",
-		"images/hutao08.png",
-		"images/hutao09.png",
-		"images/hutao10.png",
-		"images/hutao11.png",
-		"images/hutao12.png",
-		"images/hutao13.png",
-		"images/hutao14.png",
-		"images/hutao15.png",
-		"images/hutao16.png",
-		"images/hutao17.png",
-		"images/hutao18.png",
-		"images/hutao19.png"
+			"images/hutao01.png",
+			"images/hutao02.png",
+			"images/hutao03.png",
+			"images/hutao04.png",
+			"images/hutao05.png",
+			"images/hutao06.png",
+			"images/hutao07.png",
+			"images/hutao08.png",
+			"images/hutao09.png",
+			"images/hutao10.png",
+			"images/hutao11.png",
+			"images/hutao12.png",
+			"images/hutao13.png",
+			"images/hutao14.png",
+			"images/hutao15.png",
+			"images/hutao16.png",
+			"images/hutao17.png",
+			"images/hutao18.png",
+			"images/hutao19.png"
 		]
 	},
 	{
@@ -652,15 +669,15 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/klee01.png",
-		"images/klee02.png",
-		"images/klee03.png",
-		"images/klee04.png",
-		"images/klee05.png",
-		"images/klee06.png",
-		"images/klee07.png",
-		"images/klee08.png",
-		"images/klee09.png"
+			"images/klee01.png",
+			"images/klee02.png",
+			"images/klee03.png",
+			"images/klee04.png",
+			"images/klee05.png",
+			"images/klee06.png",
+			"images/klee07.png",
+			"images/klee08.png",
+			"images/klee09.png"
 		]
 	},
 	{
@@ -668,10 +685,10 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/diluc01.png",
-		"images/diluc02.png",
-		"images/diluc03.png",
-		"images/diluc04.png"
+			"images/diluc01.png",
+			"images/diluc02.png",
+			"images/diluc03.png",
+			"images/diluc04.png"
 		]
 	},
 	{
@@ -679,10 +696,10 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/yunjin01.png",
-		"images/yunjin02.png",
-		"images/yunjin03.png",
-		"images/yunjin04.png"
+			"images/yunjin01.png",
+			"images/yunjin02.png",
+			"images/yunjin03.png",
+			"images/yunjin04.png"
 		]
 	},
 	{
@@ -690,11 +707,11 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/gorou01.png",
-		"images/gorou02.png",
-		"images/gorou03.png",
-		"images/gorou04.png",
-		"images/gorou05.png"
+			"images/gorou01.png",
+			"images/gorou02.png",
+			"images/gorou03.png",
+			"images/gorou04.png",
+			"images/gorou05.png"
 		]
 	},
 	{
@@ -708,11 +725,11 @@
 		"element": "geo",
 		"include": true,
 		"images": [
-		"images/ningguang01.png",
-		"images/ningguang02.png",
-		"images/ningguang03.png",
-		"images/ningguang04.png",
-		"images/ningguang05.png"
+			"images/ningguang01.png",
+			"images/ningguang02.png",
+			"images/ningguang03.png",
+			"images/ningguang04.png",
+			"images/ningguang05.png"
 		]
 	},
 	{
@@ -720,16 +737,16 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/lynette01.png",
-		"images/lynette02.png",
-		"images/lynette03.png",
-		"images/lynette04.png",
-		"images/lynette05.png",
-		"images/lynette06.png",
-		"images/lynette07.png",
-		"images/lynette08.png",
-		"images/lynette09.png",
-		"images/lynette10.png"
+			"images/lynette01.png",
+			"images/lynette02.png",
+			"images/lynette03.png",
+			"images/lynette04.png",
+			"images/lynette05.png",
+			"images/lynette06.png",
+			"images/lynette07.png",
+			"images/lynette08.png",
+			"images/lynette09.png",
+			"images/lynette10.png"
 		]
 	},
 	{
@@ -737,11 +754,11 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/faruzan01.png",
-		"images/faruzan02.png",
-		"images/faruzan03.png",
-		"images/faruzan04.png",
-		"images/faruzan05.png"
+			"images/faruzan01.png",
+			"images/faruzan02.png",
+			"images/faruzan03.png",
+			"images/faruzan04.png",
+			"images/faruzan05.png"
 		]
 	},
 	{
@@ -749,10 +766,10 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/heizou01.png",
-		"images/heizou02.png",
-		"images/heizou03.png",
-		"images/heizou04.png"
+			"images/heizou01.png",
+			"images/heizou02.png",
+			"images/heizou03.png",
+			"images/heizou04.png"
 		]
 	},
 	{
@@ -760,10 +777,10 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/sayu01.png",
-		"images/sayu02.png",
-		"images/sayu03.png",
-		"images/sayu04.png"
+			"images/sayu01.png",
+			"images/sayu02.png",
+			"images/sayu03.png",
+			"images/sayu04.png"
 		]
 	},
 	{
@@ -771,16 +788,16 @@
 		"element": "anemo",
 		"include": true,
 		"images": [
-		"images/sucrose01.png",
-		"images/sucrose02.png",
-		"images/sucrose03.png",
-		"images/sucrose04.png",
-		"images/sucrose05.png",
-		"images/sucrose06.png",
-		"images/sucrose07.png",
-		"images/sucrose08.png",
-		"images/sucrose09.png",
-		"images/sucrose10.png"
+			"images/sucrose01.png",
+			"images/sucrose02.png",
+			"images/sucrose03.png",
+			"images/sucrose04.png",
+			"images/sucrose05.png",
+			"images/sucrose06.png",
+			"images/sucrose07.png",
+			"images/sucrose08.png",
+			"images/sucrose09.png",
+			"images/sucrose10.png"
 		]
 	},
 	{
@@ -788,12 +805,12 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/charlotte01.png",
-		"images/charlotte02.png",
-		"images/charlotte03.png",
-		"images/charlotte04.png",
-		"images/charlotte05.png",
-		"images/charlotte06.png"
+			"images/charlotte01.png",
+			"images/charlotte02.png",
+			"images/charlotte03.png",
+			"images/charlotte04.png",
+			"images/charlotte05.png",
+			"images/charlotte06.png"
 		]
 	},
 	{
@@ -801,13 +818,13 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/freminet01.png",
-		"images/freminet02.png",
-		"images/freminet03.png",
-		"images/freminet04.png",
-		"images/freminet05.png",
-		"images/freminet06.png",
-		"images/freminet07.png"
+			"images/freminet01.png",
+			"images/freminet02.png",
+			"images/freminet03.png",
+			"images/freminet04.png",
+			"images/freminet05.png",
+			"images/freminet06.png",
+			"images/freminet07.png"
 		]
 	},
 	{
@@ -815,10 +832,10 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/mika01.png",
-		"images/mika02.png",
-		"images/mika03.png",
-		"images/mika04.png"
+			"images/mika01.png",
+			"images/mika02.png",
+			"images/mika03.png",
+			"images/mika04.png"
 		]
 	},
 	{
@@ -826,10 +843,10 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/layla01.png",
-		"images/layla02.png",
-		"images/layla03.png",
-		"images/layla04.png"
+			"images/layla01.png",
+			"images/layla02.png",
+			"images/layla03.png",
+			"images/layla04.png"
 		]
 	},
 	{
@@ -837,11 +854,11 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/rosaria01.png",
-		"images/rosaria02.png",
-		"images/rosaria03.png",
-		"images/rosaria04.png",
-		"images/rosaria05.png"
+			"images/rosaria01.png",
+			"images/rosaria02.png",
+			"images/rosaria03.png",
+			"images/rosaria04.png",
+			"images/rosaria05.png"
 		]
 	},
 	{
@@ -849,13 +866,13 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/diona01.png",
-		"images/diona02.png",
-		"images/diona03.png",
-		"images/diona04.png",
-		"images/diona05.png",
-		"images/diona06.png",
-		"images/diona07.png"
+			"images/diona01.png",
+			"images/diona02.png",
+			"images/diona03.png",
+			"images/diona04.png",
+			"images/diona05.png",
+			"images/diona06.png",
+			"images/diona07.png"
 		]
 	},
 	{
@@ -863,12 +880,12 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/chongyun01.png",
-		"images/chongyun02.png",
-		"images/chongyun03.png",
-		"images/chongyun04.png",
-		"images/chongyun05.png",
-		"images/chongyun06.png"
+			"images/chongyun01.png",
+			"images/chongyun02.png",
+			"images/chongyun03.png",
+			"images/chongyun04.png",
+			"images/chongyun05.png",
+			"images/chongyun06.png"
 		]
 	},
 	{
@@ -876,14 +893,14 @@
 		"element": "cryo",
 		"include": true,
 		"images": [
-		"images/kaeya01.png",
-		"images/kaeya02.png",
-		"images/kaeya03.png",
-		"images/kaeya04.png",
-		"images/kaeya05.png",
-		"images/kaeya06.png",
-		"images/kaeya07.png",
-		"images/kaeya08.png"
+			"images/kaeya01.png",
+			"images/kaeya02.png",
+			"images/kaeya03.png",
+			"images/kaeya04.png",
+			"images/kaeya05.png",
+			"images/kaeya06.png",
+			"images/kaeya07.png",
+			"images/kaeya08.png"
 		]
 	},
 	{
@@ -891,10 +908,10 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/sethos01.webp",
-		"images/sethos02.webp",
-		"images/sethos03.webp",
-		"images/sethos04.webp"
+			"images/sethos01.webp",
+			"images/sethos02.webp",
+			"images/sethos03.webp",
+			"images/sethos04.webp"
 		]
 	},
 	{
@@ -902,10 +919,10 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/dori01.png",
-		"images/dori02.png",
-		"images/dori03.png",
-		"images/dori04.png"
+			"images/dori01.png",
+			"images/dori02.png",
+			"images/dori03.png",
+			"images/dori04.png"
 		]
 	},
 	{
@@ -913,10 +930,10 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/shinobu01.png",
-		"images/shinobu02.png",
-		"images/shinobu03.png",
-		"images/shinobu04.png"
+			"images/shinobu01.png",
+			"images/shinobu02.png",
+			"images/shinobu03.png",
+			"images/shinobu04.png"
 		]
 	},
 	{
@@ -924,10 +941,10 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/sara01.png",
-		"images/sara02.png",
-		"images/sara03.png",
-		"images/sara04.png"
+			"images/sara01.png",
+			"images/sara02.png",
+			"images/sara03.png",
+			"images/sara04.png"
 		]
 	},
 	{
@@ -935,11 +952,11 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/fischl01.png",
-		"images/fischl02.png",
-		"images/fischl03.png",
-		"images/fischl04.png",
-		"images/fischl05.png"
+			"images/fischl01.png",
+			"images/fischl02.png",
+			"images/fischl03.png",
+			"images/fischl04.png",
+			"images/fischl05.png"
 		]
 	},
 	{
@@ -947,10 +964,10 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/beidou01.png",
-		"images/beidou02.png",
-		"images/beidou03.png",
-		"images/beidou04.png"
+			"images/beidou01.png",
+			"images/beidou02.png",
+			"images/beidou03.png",
+			"images/beidou04.png"
 		]
 	},
 	{
@@ -958,12 +975,12 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/razor01.png",
-		"images/razor02.png",
-		"images/razor03.png",
-		"images/razor04.png",
-		"images/razor05.png",
-		"images/razor06.png"
+			"images/razor01.png",
+			"images/razor02.png",
+			"images/razor03.png",
+			"images/razor04.png",
+			"images/razor05.png",
+			"images/razor06.png"
 		]
 	},
 	{
@@ -971,11 +988,11 @@
 		"element": "electro",
 		"include": true,
 		"images": [
-		"images/lisa01.png",
-		"images/lisa02.png",
-		"images/lisa03.png",
-		"images/lisa04.png",
-		"images/lisa05.png"
+			"images/lisa01.png",
+			"images/lisa02.png",
+			"images/lisa03.png",
+			"images/lisa04.png",
+			"images/lisa05.png"
 		]
 	},
 	{
@@ -983,13 +1000,13 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/kaveh01.png",
-		"images/kaveh02.png",
-		"images/kaveh03.png",
-		"images/kaveh04.png",
-		"images/kaveh05.png",
-		"images/kaveh06.png",
-		"images/kaveh07.png"
+			"images/kaveh01.png",
+			"images/kaveh02.png",
+			"images/kaveh03.png",
+			"images/kaveh04.png",
+			"images/kaveh05.png",
+			"images/kaveh06.png",
+			"images/kaveh07.png"
 		]
 	},
 	{
@@ -997,10 +1014,10 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/yaoyao01.png",
-		"images/yaoyao02.png",
-		"images/yaoyao03.png",
-		"images/yaoyao04.png"
+			"images/yaoyao01.png",
+			"images/yaoyao02.png",
+			"images/yaoyao03.png",
+			"images/yaoyao04.png"
 		]
 	},
 	{
@@ -1008,15 +1025,15 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/collei01.png",
-		"images/collei02.png",
-		"images/collei03.png",
-		"images/collei04.png",
-		"images/collei05.png",
-		"images/collei06.png",
-		"images/collei07.png",
-		"images/collei08.png",
-		"images/collei09.png"
+			"images/collei01.png",
+			"images/collei02.png",
+			"images/collei03.png",
+			"images/collei04.png",
+			"images/collei05.png",
+			"images/collei06.png",
+			"images/collei07.png",
+			"images/collei08.png",
+			"images/collei09.png"
 		]
 	},
 	{
@@ -1024,11 +1041,13 @@
 		"element": "dendro",
 		"include": true,
 		"images": [
-		"images/kirara01.png",
-		"images/kirara02.png",
-		"images/kirara03.png",
-		"images/kirara04.png",
-		"images/kirara05.png"
+			"images/kirara01.png",
+			"images/kirara02.png",
+			"images/kirara03.png",
+			"images/kirara04.png",
+			"images/kirara05.png",
+			"images/kirara06.webp",
+			"images/kirara07.webp"
 		]
 	},
 	{
@@ -1036,10 +1055,10 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/candace01.png",
-		"images/candace02.png",
-		"images/candace03.png",
-		"images/candace04.png"
+			"images/candace01.png",
+			"images/candace02.png",
+			"images/candace03.png",
+			"images/candace04.png"
 		]
 	},
 	{
@@ -1047,15 +1066,15 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/xingqiu01.png",
-		"images/xingqiu02.png",
-		"images/xingqiu03.png",
-		"images/xingqiu04.png",
-		"images/xingqiu05.png",
-		"images/xingqiu06.png",
-		"images/xingqiu07.png",
-		"images/xingqiu08.png",
-		"images/xingqiu09.png"
+			"images/xingqiu01.png",
+			"images/xingqiu02.png",
+			"images/xingqiu03.png",
+			"images/xingqiu04.png",
+			"images/xingqiu05.png",
+			"images/xingqiu06.png",
+			"images/xingqiu07.png",
+			"images/xingqiu08.png",
+			"images/xingqiu09.png"
 		]
 	},
 	{
@@ -1063,12 +1082,12 @@
 		"element": "hydro",
 		"include": true,
 		"images": [
-		"images/barbara01.png",
-		"images/barbara02.png",
-		"images/barbara03.png",
-		"images/barbara04.png",
-		"images/barbara05.png",
-		"images/barbara06.png"
+			"images/barbara01.png",
+			"images/barbara02.png",
+			"images/barbara03.png",
+			"images/barbara04.png",
+			"images/barbara05.png",
+			"images/barbara06.png"
 		]
 	},
 	{
@@ -1076,11 +1095,11 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/chevreuse01.png",
-		"images/chevreuse02.png",
-		"images/chevreuse03.png",
-		"images/chevreuse04.png",
-		"images/chevreuse05.png"
+			"images/chevreuse01.png",
+			"images/chevreuse02.png",
+			"images/chevreuse03.png",
+			"images/chevreuse04.png",
+			"images/chevreuse05.png"
 		]
 	},
 	{
@@ -1088,13 +1107,13 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/gaming01.png",
-		"images/gaming02.png",
-		"images/gaming03.png",
-		"images/gaming04.png",
-		"images/gaming05.png",
-		"images/gaming06.png",
-		"images/gaming07.png"
+			"images/gaming01.png",
+			"images/gaming02.png",
+			"images/gaming03.png",
+			"images/gaming04.png",
+			"images/gaming05.png",
+			"images/gaming06.png",
+			"images/gaming07.png"
 		]
 	},
 	{
@@ -1102,13 +1121,13 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/thoma01.png",
-		"images/thoma02.png",
-		"images/thoma03.png",
-		"images/thoma04.png",
-		"images/thoma05.png",
-		"images/thoma06.png",
-		"images/thoma07.png"
+			"images/thoma01.png",
+			"images/thoma02.png",
+			"images/thoma03.png",
+			"images/thoma04.png",
+			"images/thoma05.png",
+			"images/thoma06.png",
+			"images/thoma07.png"
 		]
 	},
 	{
@@ -1116,13 +1135,13 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/yanfei01.png",
-		"images/yanfei02.png",
-		"images/yanfei03.png",
-		"images/yanfei04.png",
-		"images/yanfei05.png",
-		"images/yanfei06.png",
-		"images/yanfei07.png"
+			"images/yanfei01.png",
+			"images/yanfei02.png",
+			"images/yanfei03.png",
+			"images/yanfei04.png",
+			"images/yanfei05.png",
+			"images/yanfei06.png",
+			"images/yanfei07.png"
 		]
 	},
 	{
@@ -1130,16 +1149,16 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/xinyan01.png",
-		"images/xinyan02.png",
-		"images/xinyan03.png",
-		"images/xinyan04.png",
-		"images/xinyan05.png",
-		"images/xinyan06.png",
-		"images/xinyan07.png",
-		"images/xinyan08.png",
-		"images/xinyan09.png",
-		"images/xinyan10.png"
+			"images/xinyan01.png",
+			"images/xinyan02.png",
+			"images/xinyan03.png",
+			"images/xinyan04.png",
+			"images/xinyan05.png",
+			"images/xinyan06.png",
+			"images/xinyan07.png",
+			"images/xinyan08.png",
+			"images/xinyan09.png",
+			"images/xinyan10.png"
 		]
 	},
 	{
@@ -1147,8 +1166,8 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/bennett01.png",
-		"images/bennett02.png"
+			"images/bennett01.png",
+			"images/bennett02.png"
 		]
 	},
 	{
@@ -1156,10 +1175,10 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/xiangling01.png",
-		"images/xiangling02.png",
-		"images/xiangling03.png",
-		"images/xiangling04.png"
+			"images/xiangling01.png",
+			"images/xiangling02.png",
+			"images/xiangling03.png",
+			"images/xiangling04.png"
 		]
 	},
 	{
@@ -1167,12 +1186,12 @@
 		"element": "pyro",
 		"include": true,
 		"images": [
-		"images/amber01.png",
-		"images/amber02.png",
-		"images/amber03.png",
-		"images/amber04.png",
-		"images/amber05.png",
-		"images/amber06.png"
+			"images/amber01.png",
+			"images/amber02.png",
+			"images/amber03.png",
+			"images/amber04.png",
+			"images/amber05.png",
+			"images/amber06.png"
 		]
 	}
 ]
