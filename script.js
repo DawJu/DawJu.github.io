@@ -105,7 +105,7 @@
 		$scope.lessThan8 = false;
 
 		function initSingleCharacterTooltip() {
-			let element = document.querySelector("#single-character img");
+			let element = document.querySelector("#single-character");
 			if (element) {
 				element.setAttribute("data-bs-toggle", "tooltip");
 				element.setAttribute("data-bs-title", element.getAttribute("tooltip"));
@@ -246,20 +246,6 @@
 				$scope.showTwoTeams = false;
 				$scope.lessThan8 = true;
 			}
-		};
-	});
-	
-	app.directive("selectedCharacterCount", function () {
-		return {
-			restrict: "A",
-			template: "Number of Selected Characters: {{getIncludedCount()}}"
-		};
-	});
-	
-	app.directive("selectedCharacters", function () {
-		return {
-			restrict: "A",
-			template: "Selected Characters: {{getIncludedNames().toString()}}"
 		};
 	});
 
