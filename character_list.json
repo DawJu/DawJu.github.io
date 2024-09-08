@@ -391,6 +391,17 @@
 		]
 	},
 	{
+		"name": "Kinich",
+		"element": "dendro",
+		"include": true,
+		"images": [
+			"images/kinich01.webp",
+			"images/kinich02.webp",
+			"images/kinich03.webp",
+			"images/kinich04.webp"
+		]
+	},
+	{
 		"name": "Emilie",
 		"element": "dendro",
 		"include": true,
@@ -451,6 +462,17 @@
 			"images/tighnari06.png",
 			"images/tighnari07.png",
 			"images/tighnari08.png"
+		]
+	},
+	{
+		"name": "Mualani",
+		"element": "hydro",
+		"include": true,
+		"images": [
+			"images/mualani01.webp",
+			"images/mualani02.webp",
+			"images/mualani03.webp",
+			"images/mualani04.webp"
 		]
 	},
 	{
@@ -689,6 +711,17 @@
 			"images/diluc02.png",
 			"images/diluc03.png",
 			"images/diluc04.png"
+		]
+	},
+	{
+		"name": "Kachina",
+		"element": "geo",
+		"include": true,
+		"images": [
+			"images/kachina01.webp",
+			"images/kachina02.webp",
+			"images/kachina03.webp",
+			"images/kachina04.webp"
 		]
 	},
 	{
