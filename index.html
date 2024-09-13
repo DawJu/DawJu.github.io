@@ -23,6 +23,9 @@
 		<button class="btn m-1" ng-click="switchTheme()"
 		ng-class="{'btn-dark': colorTheme == 'light', 'btn-primary': colorTheme == 'dark'}">Switch Theme</button>
 	</header>
+	<div id="loading-screen" ng-class="{'ls-light': colorTheme == 'light', 'ls-dark': colorTheme == 'dark'}">
+		<div class="spinner-border" ng-class="{'text-dark': colorTheme == 'light', 'text-light': colorTheme == 'dark'}"></div>
+	</div>
 	<main class="container p-3">
 		<section id="randomizer" class="row">
 			<div class="col" role="region" aria-live="polite">
@@ -97,9 +100,7 @@
 	</main>
 	<footer class="container-fluid p-2"
 	ng-class="{'text-bg-primary': colorTheme == 'light', 'text-bg-secondary': colorTheme == 'dark'}">
-		<span disclaimer></span>
-		<p class="mb-1 text-end">Author: Yaku</p>
-		<p class="mb-1 text-end">Contact: Discord@yakuya_</p>
+		<p class="mb-1">If you encounter any issues or have suggestions, feel free to contact me on Discord @yakuya_</p>
 	</footer>
 </body>
 </html>

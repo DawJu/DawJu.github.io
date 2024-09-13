@@ -6,5 +6,3 @@ Are you tired of:
 - Using random number generators to choose characters for you?
 
 If you answered yes to any of these, then this tool may be for you.
-
-Disclaimer: This tool is still in development. Things will be changed and new features will be added over time.

@@ -114,6 +114,11 @@
 			}
 		}
 
+		// Hide the loading screen on page load
+		window.addEventListener("load", () => {
+			document.getElementById("loading-screen").style.display = "none";
+		});
+
 		// Load data from local storage
 		$scope.init = function () {
 			// Load color theme choice
@@ -246,13 +251,6 @@
 				$scope.showTwoTeams = false;
 				$scope.lessThan8 = true;
 			}
-		};
-	});
-
-	app.directive("disclaimer", function () {
-		return {
-			restrict: "A",
-			template: "Disclaimer: This website is under construction. Nothing you see is final. Changes will be made, and new features added over time."
 		};
 	});
 
