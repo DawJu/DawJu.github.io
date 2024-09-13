@@ -116,7 +116,9 @@
 
 		// Hide the loading screen on page load
 		window.addEventListener("load", () => {
-			document.getElementById("loading-screen").style.display = "none";
+			setTimeout(() => {
+				document.getElementById("loading-screen").style.display = "none";
+			}, 1000);
 		});
 
 		// Load data from local storage
