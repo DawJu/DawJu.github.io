@@ -24,6 +24,14 @@
 		]
 	},
 	{
+		"name": "Xilonen",
+		"element": "geo",
+		"include": true,
+		"images": [
+			"images/xilonen00.png"
+		]
+	},
+	{
 		"name": "Chiori",
 		"element": "geo",
 		"include": true,
