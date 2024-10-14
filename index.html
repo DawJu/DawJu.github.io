@@ -35,7 +35,7 @@
 				<button class="btn btn-sm mb-2" ng-show="showChar" ng-click="showChar = false;"
 				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Hide</button><br>
 				<div id="single-character" ng-show="showChar"
-				class="character-holder border border-dark p-1 {{rndChar.element}}" tooltip="{{rndChar.name}}" tabindex=0>
+				class="character-holder border border-dark p-1 {{rndChar.element.toLowerCase()}}" tooltip="{{rndChar.name}}" tabindex=0>
 					<img ng-src="{{rndChar.selectedImage}}" alt="{{rndChar.name}}">
 				</div>
 				<p not-enough-characters1 class="alert alert-info mt-2" ng-show="lessThan1"></p>
@@ -47,7 +47,7 @@
 				<button class="btn btn-sm mb-2" ng-show="showTeam" ng-click="showTeam = false;"
 				ng-class="{'btn-outline-dark': colorTheme == 'light', 'btn-outline-light': colorTheme == 'dark'}">Hide</button><br>
 				<div ng-show="showTeam" ng-repeat="char in rndTeam"
-				class="character-holder border border-dark p-1 {{char.element}}" tooltip="{{char.name}}" tabindex=0>
+				class="character-holder border border-dark p-1 {{char.element.toLowerCase()}}" tooltip="{{char.name}}" tabindex=0>
 					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}">
 				</div>
 				<p not-enough-characters4 class="alert alert-info mt-2" ng-show="lessThan4"></p>
@@ -61,13 +61,13 @@
 				<div ng-show="showTwoTeams">
 					Team 1:<br>
 					<div ng-repeat="char in rndTwoTeams[0]"
-					class="character-holder border border-dark p-1 {{char.element}}" tooltip="{{char.name}}" tabindex=0>
+					class="character-holder border border-dark p-1 {{char.element.toLowerCase()}}" tooltip="{{char.name}}" tabindex=0>
 						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}"><br>
 					</div>
 					<br>
 					Team 2:<br>
 					<div ng-repeat="char in rndTwoTeams[1]"
-					class="character-holder border border-dark p-1 {{char.element}}" tooltip="{{char.name}}" tabindex=0>
+					class="character-holder border border-dark p-1 {{char.element.toLowerCase()}}" tooltip="{{char.name}}" tabindex=0>
 						<img ng-src="{{char.selectedImage}}" alt="{{char.name}}">
 					</div>
 				</div>
@@ -78,10 +78,13 @@
 		<div class="row">
 			<section id="settings" class="col-md-3 col-lg-2">
 				<h4>Search</h4>
-				<form class="form-floating">
-					<input type="text" class="form-control" id="phrase" placeholder="Name or tag" ng-model="searchPhrase">
-					<label for="phrase">Name or tag</label>
+				<form class="form-floating mb-3">
+					<input type="text" class="form-control" id="name" placeholder="Name" ng-model="searchName">
+					<label for="name">Name</label>
 				</form>
+				<button ng-repeat="elem in elements" id="{{elem}}" ng-class="{'non-selected': !searchElements.includes(elem)}"
+					class="btn btn-secondary character-holder border border-dark p-1 me-1 mb-1 {{elem.toLowerCase()}}" tabindex=0
+					ng-click="toggleElement(elem)">{{elem}}</button>
 				<hr>
 				<h4 class="pt-4 pb-4">Settings</h4>
 				<button class="btn btn-outline-secondary btn-sm mb-2" ng-click="selectAll()">Select All</button>
@@ -90,8 +93,8 @@
 				<hr>
 			</section>
 			<section id="character-list" class="d-flex flex-wrap align-content-start justify-content-center col-md-9 col-lg-10">
-				<div ng-repeat="char in characters | filter:searchPhrase" id="{{char.name.toLowerCase()}}" role="button"
-					ng-class="{'non-selected': !char.include}" class="character-holder border border-dark p-1 {{char.element}}" 
+				<div ng-repeat="char in characters | searchFilter: searchName:searchElements" id="{{char.name.toLowerCase()}}" role="button"
+					ng-class="{'non-selected': !char.include}" class="character-holder border border-dark p-1 {{char.element.toLowerCase()}}" 
 					tooltip="{{char.name}}" tabindex=0 ng-keydown="handleKeydown($event, $index)" ng-click="toggleInclude(char)">
 					<img ng-src="{{char.selectedImage}}" alt="{{char.name}}">
 				</div>

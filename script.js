@@ -16,6 +16,20 @@
 
 		$scope.deselectAll = function () { $scope.characters.forEach(char => char.include = false); };
 
+		$scope.elements = ["Geo", "Anemo", "Cryo", "Electro", "Dendro", "Hydro", "Pyro"];
+
+		$scope.searchElements = ["Traveler", "Geo", "Anemo", "Cryo", "Electro", "Dendro", "Hydro", "Pyro"];
+
+		$scope.toggleElement = function (element) {
+			let array = $scope.searchElements;
+			if (array.includes(element)) {
+				array.splice(array.indexOf(element), 1);
+			}
+			else {
+				array.push(element);
+			}
+		};
+
 		$scope.switchTraveler = function () {
 			let traveler = $scope.characters[0];
 			if (traveler.images[0].includes("aether")) {
@@ -253,6 +267,28 @@
 				$scope.showTwoTeams = false;
 				$scope.lessThan8 = true;
 			}
+		};
+	});
+
+	app.filter("searchFilter", function () {
+		return function (items, searchName, searchElements) {
+			console.log("searchName:", searchName, "searchElements:", searchElements);
+			if (searchName) {
+				if (searchName.length != 0) {
+					searchName = searchName.toLowerCase();
+					items = items.filter(function (item) {
+						return item.name.toLowerCase().includes(searchName);
+					});
+				}
+			}
+			if (searchElements) {
+				if (searchElements.length != 0) {
+					items = items.filter(function (item) {
+						return searchElements.includes(item.element);
+					});
+				}
+			}
+			return items;
 		};
 	});
 
