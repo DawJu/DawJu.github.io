@@ -28,7 +28,10 @@
 		"element": "Geo",
 		"include": true,
 		"images": [
-			"images/xilonen00.png"
+			"images/xilonen01.webp",
+			"images/xilonen02.webp",
+			"images/xilonen03.webp",
+			"images/xilonen04.webp"
 		]
 	},
 	{
@@ -454,7 +457,8 @@
 			"images/nahida05.png",
 			"images/nahida06.png",
 			"images/nahida07.png",
-			"images/nahida08.png"
+			"images/nahida08.png",
+			"images/nahida09.webp"
 		]
 	},
 	{
@@ -799,7 +803,8 @@
 			"images/faruzan02.png",
 			"images/faruzan03.png",
 			"images/faruzan04.png",
-			"images/faruzan05.png"
+			"images/faruzan05.png",
+			"images/faruzan06.webp"
 		]
 	},
 	{
@@ -952,7 +957,8 @@
 			"images/sethos01.webp",
 			"images/sethos02.webp",
 			"images/sethos03.webp",
-			"images/sethos04.webp"
+			"images/sethos04.webp",
+			"images/sethos05.webp"
 		]
 	},
 	{
@@ -1047,7 +1053,8 @@
 			"images/kaveh04.png",
 			"images/kaveh05.png",
 			"images/kaveh06.png",
-			"images/kaveh07.png"
+			"images/kaveh07.png",
+			"images/kaveh08.webp"
 		]
 	},
 	{
@@ -1099,7 +1106,8 @@
 			"images/candace01.png",
 			"images/candace02.png",
 			"images/candace03.png",
-			"images/candace04.png"
+			"images/candace04.png",
+			"images/candace05.webp"
 		]
 	},
 	{
