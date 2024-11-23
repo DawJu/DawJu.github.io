@@ -113,6 +113,15 @@
 		]
 	},
 	{
+		"name": "Chasca",
+		"element": "Anemo",
+		"include": true,
+		"images": [
+			"images/chasca01.webp",
+			"images/chasca02.webp"
+		]
+	},
+	{
 		"name": "Xianyun",
 		"element": "Anemo",
 		"include": true,
@@ -947,6 +956,14 @@
 			"images/kaeya06.png",
 			"images/kaeya07.png",
 			"images/kaeya08.png"
+		]
+	},
+	{
+		"name": "Ororon",
+		"element": "Electro",
+		"include": true,
+		"images": [
+			"images/ororon01.webp"
 		]
 	},
 	{
