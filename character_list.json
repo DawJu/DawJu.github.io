@@ -118,7 +118,11 @@
 		"include": true,
 		"images": [
 			"images/chasca01.webp",
-			"images/chasca02.webp"
+			"images/chasca02.webp",
+			"images/chasca03.webp",
+			"images/chasca04.webp",
+			"images/chasca05.webp",
+			"images/chasca06.webp"
 		]
 	},
 	{
@@ -226,6 +230,17 @@
 			"images/jean07.png",
 			"images/jean08.png",
 			"images/jean09.png"
+		]
+	},
+	{
+		"name": "Citlali",
+		"element": "Cryo",
+		"include": true,
+		"images": [
+			"images/citlali01.webp",
+			"images/citlali02.webp",
+			"images/citlali03.webp",
+			"images/citlali04.webp"
 		]
 	},
 	{
@@ -626,6 +641,15 @@
 		]
 	},
 	{
+		"name": "Mavuika",
+		"element": "Pyro",
+		"include": true,
+		"images": [
+			"images/mavuika01.webp",
+			"images/mavuika02.webp"
+		]
+	},
+	{
 		"name": "Arlecchino",
 		"element": "Pyro",
 		"include": true,
@@ -963,7 +987,11 @@
 		"element": "Electro",
 		"include": true,
 		"images": [
-			"images/ororon01.webp"
+			"images/ororon01.webp",
+			"images/ororon02.webp",
+			"images/ororon03.webp",
+			"images/ororon04.webp",
+			"images/ororon05.webp"
 		]
 	},
 	{
