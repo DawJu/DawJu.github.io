@@ -240,7 +240,11 @@
 			"images/citlali01.webp",
 			"images/citlali02.webp",
 			"images/citlali03.webp",
-			"images/citlali04.webp"
+			"images/citlali04.webp",
+			"images/citlali05.webp",
+			"images/citlali06.webp",
+			"images/citlali07.webp",
+			"images/citlali08.webp"
 		]
 	},
 	{
@@ -646,7 +650,11 @@
 		"include": true,
 		"images": [
 			"images/mavuika01.webp",
-			"images/mavuika02.webp"
+			"images/mavuika02.webp",
+			"images/mavuika03.webp",
+			"images/mavuika04.webp",
+			"images/mavuika05.webp",
+			"images/mavuika06.webp"
 		]
 	},
 	{
@@ -728,7 +736,9 @@
 			"images/hutao16.png",
 			"images/hutao17.png",
 			"images/hutao18.png",
-			"images/hutao19.png"
+			"images/hutao19.png",
+			"images/hutao20.webp",
+			"images/hutao21.webp"
 		]
 	},
 	{
@@ -808,6 +818,16 @@
 			"images/ningguang03.png",
 			"images/ningguang04.png",
 			"images/ningguang05.png"
+		]
+	},
+	{
+		"name": "Lan Yan",
+		"element": "Anemo",
+		"include": true,
+		"images": [
+			"images/lanyan01.webp",
+			"images/lanyan02.webp",
+			"images/lanyan03.webp"
 		]
 	},
 	{
@@ -1272,7 +1292,9 @@
 			"images/xiangling01.png",
 			"images/xiangling02.png",
 			"images/xiangling03.png",
-			"images/xiangling04.png"
+			"images/xiangling04.png",
+			"images/xiangling05.webp",
+			"images/xiangling06.webp"
 		]
 	},
 	{
