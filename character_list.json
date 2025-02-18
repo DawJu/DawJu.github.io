@@ -113,6 +113,18 @@
 		]
 	},
 	{
+		"name": "Yumemizuki Mizuki",
+		"element": "Anemo",
+		"include": true,
+		"images": [
+			"images/mizuki01.webp",
+			"images/mizuki02.webp",
+			"images/mizuki03.webp",
+			"images/mizuki04.webp",
+			"images/mizuki05.webp"
+		]
+	},
+	{
 		"name": "Chasca",
 		"element": "Anemo",
 		"include": true,
@@ -136,7 +148,8 @@
 			"images/xianyun04.png",
 			"images/xianyun05.png",
 			"images/xianyun06.png",
-			"images/xianyun07.png"
+			"images/xianyun07.png",
+			"images/xianyun08.webp"
 		]
 	},
 	{
@@ -167,7 +180,8 @@
 			"images/kazuha05.png",
 			"images/kazuha06.png",
 			"images/kazuha07.png",
-			"images/kazuha08.png"
+			"images/kazuha08.png",
+			"images/kazuha09.webp"
 		]
 	},
 	{
@@ -385,7 +399,9 @@
 			"images/miko05.png",
 			"images/miko06.png",
 			"images/miko07.png",
-			"images/miko08.png"
+			"images/miko08.png",
+			"images/miko09.webp",
+			"images/miko10.webp"
 		]
 	},
 	{
@@ -404,7 +420,9 @@
 			"images/raiden09.png",
 			"images/raiden10.png",
 			"images/raiden11.png",
-			"images/raiden12.png"
+			"images/raiden12.png",
+			"images/raiden13.webp",
+			"images/raiden14.webp"
 		]
 	},
 	{
@@ -602,7 +620,8 @@
 			"images/kokomi07.png",
 			"images/kokomi08.png",
 			"images/kokomi09.png",
-			"images/kokomi10.png"
+			"images/kokomi10.png",
+			"images/kokomi11.webp"
 		]
 	},
 	{
@@ -710,7 +729,8 @@
 			"images/yoimiya08.png",
 			"images/yoimiya09.png",
 			"images/yoimiya10.png",
-			"images/yoimiya11.png"
+			"images/yoimiya11.png",
+			"images/yoimiya12.webp"
 		]
 	},
 	{
@@ -879,7 +899,8 @@
 			"images/sayu01.png",
 			"images/sayu02.png",
 			"images/sayu03.png",
-			"images/sayu04.png"
+			"images/sayu04.png",
+			"images/sayu05.webp"
 		]
 	},
 	{
@@ -1241,7 +1262,8 @@
 			"images/thoma04.png",
 			"images/thoma05.png",
 			"images/thoma06.png",
-			"images/thoma07.png"
+			"images/thoma07.png",
+			"images/thoma08.webp"
 		]
 	},
 	{
