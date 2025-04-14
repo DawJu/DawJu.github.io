@@ -31,7 +31,8 @@
 			"images/xilonen01.webp",
 			"images/xilonen02.webp",
 			"images/xilonen03.webp",
-			"images/xilonen04.webp"
+			"images/xilonen04.webp",
+			"images/xilonen05.webp"
 		]
 	},
 	{
@@ -359,6 +360,17 @@
 		]
 	},
 	{
+		"name": "Varesa",
+		"element": "Electro",
+		"include": true,
+		"images": [
+			"images/varesa01.webp",
+			"images/varesa02.webp",
+			"images/varesa03.webp",
+			"images/varesa04.webp"
+		]
+	},
+	{
 		"name": "Clorinde",
 		"element": "Electro",
 		"include": true,
@@ -530,7 +542,8 @@
 			"images/mualani01.webp",
 			"images/mualani02.webp",
 			"images/mualani03.webp",
-			"images/mualani04.webp"
+			"images/mualani04.webp",
+			"images/mualani05.webp"
 		]
 	},
 	{
@@ -673,7 +686,8 @@
 			"images/mavuika03.webp",
 			"images/mavuika04.webp",
 			"images/mavuika05.webp",
-			"images/mavuika06.webp"
+			"images/mavuika06.webp",
+			"images/mavuika07.webp"
 		]
 	},
 	{
@@ -796,7 +810,8 @@
 			"images/kachina01.webp",
 			"images/kachina02.webp",
 			"images/kachina03.webp",
-			"images/kachina04.webp"
+			"images/kachina04.webp",
+			"images/kachina05.webp"
 		]
 	},
 	{
@@ -1024,6 +1039,19 @@
 		]
 	},
 	{
+		"name": "Iansan",
+		"element": "Electro",
+		"include": true,
+		"images": [
+			"images/iansan01.webp",
+			"images/iansan02.webp",
+			"images/iansan03.webp",
+			"images/iansan04.webp",
+			"images/iansan05.webp",
+			"images/iansan06.webp"
+		]
+	},
+	{
 		"name": "Ororon",
 		"element": "Electro",
 		"include": true,
@@ -1032,7 +1060,8 @@
 			"images/ororon02.webp",
 			"images/ororon03.webp",
 			"images/ororon04.webp",
-			"images/ororon05.webp"
+			"images/ororon05.webp",
+			"images/ororon06.webp"
 		]
 	},
 	{
