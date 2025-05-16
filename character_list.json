@@ -93,7 +93,8 @@
 			"images/albedo07.png",
 			"images/albedo08.png",
 			"images/albedo09.png",
-			"images/albedo10.png"
+			"images/albedo10.png",
+			"images/albedo11.webp"
 		]
 	},
 	{
@@ -228,7 +229,8 @@
 			"images/venti13.png",
 			"images/venti14.png",
 			"images/venti15.png",
-			"images/venti16.png"
+			"images/venti16.png",
+			"images/venti17.webp"
 		]
 	},
 	{
@@ -244,7 +246,19 @@
 			"images/jean06.png",
 			"images/jean07.png",
 			"images/jean08.png",
-			"images/jean09.png"
+			"images/jean09.png",
+			"images/jean10.webp"
+		]
+	},
+	{
+		"name": "Escoffier",
+		"element": "Cryo",
+		"include": true,
+		"images": [
+			"images/escoffier01.webp",
+			"images/escoffier02.webp",
+			"images/escoffier03.webp",
+			"images/escoffier04.webp"
 		]
 	},
 	{
@@ -270,7 +284,8 @@
 			"images/wriothesley01.png",
 			"images/wriothesley02.png",
 			"images/wriothesley03.png",
-			"images/wriothesley04.png"
+			"images/wriothesley04.png",
+			"images/wriothesley05.webp"
 		]
 	},
 	{
@@ -467,7 +482,8 @@
 			"images/kinich01.webp",
 			"images/kinich02.webp",
 			"images/kinich03.webp",
-			"images/kinich04.webp"
+			"images/kinich04.webp",
+			"images/kinich05.webp"
 		]
 	},
 	{
@@ -856,6 +872,18 @@
 		]
 	},
 	{
+		"name": "Ifa",
+		"element": "Anemo",
+		"include": true,
+		"images": [
+			"images/ifa01.webp",
+			"images/ifa02.webp",
+			"images/ifa03.webp",
+			"images/ifa04.webp",
+			"images/ifa05.webp"
+		]
+	},
+	{
 		"name": "Lan Yan",
 		"element": "Anemo",
 		"include": true,
@@ -1061,7 +1089,8 @@
 			"images/ororon03.webp",
 			"images/ororon04.webp",
 			"images/ororon05.webp",
-			"images/ororon06.webp"
+			"images/ororon06.webp",
+			"images/ororon07.webp"
 		]
 	},
 	{
