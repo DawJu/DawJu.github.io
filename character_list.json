@@ -20,7 +20,8 @@
 			"images/traveler/aether14.png",
 			"images/traveler/aether15.png",
 			"images/traveler/aether16.png",
-			"images/traveler/aether17.png"
+			"images/traveler/aether17.png",
+			"images/traveler/aether18.webp"
 		]
 	},
 	{
@@ -248,6 +249,17 @@
 			"images/jean08.png",
 			"images/jean09.png",
 			"images/jean10.webp"
+		]
+	},
+	{
+		"name": "Skirk",
+		"element": "Cryo",
+		"include": true,
+		"images": [
+			"images/skirk01.webp",
+			"images/skirk02.webp",
+			"images/skirk03.webp",
+			"images/skirk04.webp"
 		]
 	},
 	{
@@ -595,7 +607,8 @@
 			"images/neuvillette02.png",
 			"images/neuvillette03.png",
 			"images/neuvillette04.png",
-			"images/neuvillette05.png"
+			"images/neuvillette05.png",
+			"images/neuvillette06.webp"
 		]
 	},
 	{
@@ -931,7 +944,8 @@
 			"images/heizou01.png",
 			"images/heizou02.png",
 			"images/heizou03.png",
-			"images/heizou04.png"
+			"images/heizou04.png",
+			"images/heizou05.webp"
 		]
 	},
 	{
@@ -1113,7 +1127,8 @@
 			"images/dori01.png",
 			"images/dori02.png",
 			"images/dori03.png",
-			"images/dori04.png"
+			"images/dori04.png",
+			"images/dori05.webp"
 		]
 	},
 	{
@@ -1239,7 +1254,19 @@
 			"images/kirara04.png",
 			"images/kirara05.png",
 			"images/kirara06.webp",
-			"images/kirara07.webp"
+			"images/kirara07.webp",
+			"images/kirara08.webp"
+		]
+	},
+	{
+		"name": "Dahlia",
+		"element": "Hydro",
+		"include": true,
+		"images": [
+			"images/dahlia01.webp",
+			"images/dahlia02.webp",
+			"images/dahlia03.webp",
+			"images/dahlia04.webp"
 		]
 	},
 	{

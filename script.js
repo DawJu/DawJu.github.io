@@ -38,7 +38,8 @@
 					"images/traveler/lumine02.png",
 					"images/traveler/lumine03.png",
 					"images/traveler/lumine04.png",
-					"images/traveler/lumine05.png"
+					"images/traveler/lumine05.png",
+					"images/traveler/lumine06.webp"
 				];
 				let rndId = Math.floor(Math.random() * traveler.images.length);
 				traveler.selectedImage = traveler.images[rndId];
