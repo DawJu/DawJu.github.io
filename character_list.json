@@ -137,7 +137,8 @@
 			"images/chasca03.webp",
 			"images/chasca04.webp",
 			"images/chasca05.webp",
-			"images/chasca06.webp"
+			"images/chasca06.webp",
+			"images/chasca07.webp"
 		]
 	},
 	{
@@ -231,7 +232,8 @@
 			"images/venti14.png",
 			"images/venti15.png",
 			"images/venti16.png",
-			"images/venti17.webp"
+			"images/venti17.webp",
+			"images/venti18.webp"
 		]
 	},
 	{
@@ -285,7 +287,8 @@
 			"images/citlali05.webp",
 			"images/citlali06.webp",
 			"images/citlali07.webp",
-			"images/citlali08.webp"
+			"images/citlali08.webp",
+			"images/citlali09.webp"
 		]
 	},
 	{
@@ -384,6 +387,17 @@
 			"images/ayaka09.png",
 			"images/ayaka10.png",
 			"images/ayaka11.png"
+		]
+	},
+	{
+		"name": "Ineffa",
+		"element": "Electro",
+		"include": true,
+		"images": [
+			"images/ineffa01.webp",
+			"images/ineffa02.webp",
+			"images/ineffa03.webp",
+			"images/ineffa04.webp"
 		]
 	},
 	{
@@ -571,7 +585,8 @@
 			"images/mualani02.webp",
 			"images/mualani03.webp",
 			"images/mualani04.webp",
-			"images/mualani05.webp"
+			"images/mualani05.webp",
+			"images/mualani06.webp"
 		]
 	},
 	{
@@ -645,7 +660,9 @@
 			"images/yelan02.png",
 			"images/yelan03.png",
 			"images/yelan04.png",
-			"images/yelan05.png"
+			"images/yelan05.png",
+			"images/yelan06.webp",
+			"images/yelan07.webp"
 		]
 	},
 	{
@@ -1388,7 +1405,9 @@
 		"include": true,
 		"images": [
 			"images/bennett01.png",
-			"images/bennett02.png"
+			"images/bennett02.png",
+			"images/bennett03.webp",
+			"images/bennett04.webp"
 		]
 	},
 	{
