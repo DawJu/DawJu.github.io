@@ -272,7 +272,21 @@
 			"images/escoffier01.webp",
 			"images/escoffier02.webp",
 			"images/escoffier03.webp",
-			"images/escoffier04.webp"
+			"images/escoffier04.webp",
+			"images/escoffier05.webp",
+			"images/escoffier06.webp",
+			"images/escoffier07.webp",
+			"images/escoffier08.webp",
+			"images/escoffier09.webp",
+			"images/escoffier10.webp",
+			"images/escoffier11.webp",
+			"images/escoffier12.webp",
+			"images/escoffier13.webp",
+			"images/escoffier14.webp",
+			"images/escoffier15.webp",
+			"images/escoffier16.webp",
+			"images/escoffier17.webp",
+			"images/escoffier18.webp"
 		]
 	},
 	{
@@ -501,6 +515,17 @@
 		]
 	},
 	{
+		"name": "Lauma",
+		"element": "Dendro",
+		"include": true,
+		"images": [
+			"images/lauma01.webp",
+			"images/lauma02.webp",
+			"images/lauma03.webp",
+			"images/lauma04.webp"
+		]
+	},
+	{
 		"name": "Kinich",
 		"element": "Dendro",
 		"include": true,
@@ -610,7 +635,8 @@
 			"images/furina03.png",
 			"images/furina04.png",
 			"images/furina05.png",
-			"images/furina06.png"
+			"images/furina06.png",
+			"images/furina07.webp"
 		]
 	},
 	{
@@ -1273,6 +1299,17 @@
 			"images/kirara06.webp",
 			"images/kirara07.webp",
 			"images/kirara08.webp"
+		]
+	},
+	{
+		"name": "Aino",
+		"element": "Hydro",
+		"include": true,
+		"images": [
+			"images/aino01.webp",
+			"images/aino02.webp",
+			"images/aino03.webp",
+			"images/aino04.webp"
 		]
 	},
 	{
