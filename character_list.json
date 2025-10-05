@@ -404,6 +404,17 @@
 		]
 	},
 	{
+		"name": "Flins",
+		"element": "Electro",
+		"include": true,
+		"images": [
+			"images/flins01.webp",
+			"images/flins02.webp",
+			"images/flins03.webp",
+			"images/flins04.webp"
+		]
+	},
+	{
 		"name": "Ineffa",
 		"element": "Electro",
 		"include": true,
